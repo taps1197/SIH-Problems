@@ -1,0 +1,54 @@
+HTTrack3.49-2+htsswf+htsjava launched on Tue, 22 Jan 2019 17:29:54 at https://www.sih.gov.in/sih2019ProblemStatements +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://www.sih.gov.in/sih2019ProblemStatements -O1 "D:\My_Web Sites\SIH" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+17:34:19	Warning: 	File not parsed, looks like binary: https://www.sih.gov.in/lib/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.woff2
+17:34:19	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.sih.gov.in/img/news-channels/economictimes.png (from https://www.sih.gov.in/css/style.css)
+17:34:19	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.sih.gov.in/img/people/Vivek-Kulkarni.png (from https://www.sih.gov.in/sih2017)
+17:34:19	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.sih.gov.in/img/people/anil-paranjape..jpg (from https://www.sih.gov.in/sih2018Hardware)
+17:34:19	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.sih.gov.in/img/partner-supporters/CSIO-Chandigarh..jpg (from https://www.sih.gov.in/sih2018Hardware)
+17:34:21	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.sih.gov.in/img/partner-supporters/IIT_Roorkee..jpg (from https://www.sih.gov.in/sih2018Hardware)
+17:34:21	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.sih.gov.in/img/banner_resources.png (from https://www.sih.gov.in/importantResources)
+17:34:22	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.sih.gov.in/dataTable/images/sort_asc_disabled.png (from https://www.sih.gov.in/dataTable/css/jquery.dataTables.css)
+17:34:22	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.sih.gov.in/dataTable/images/sort_desc_disabled.png (from https://www.sih.gov.in/dataTable/css/jquery.dataTables.css)
+17:35:00	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.sih.gov.in/student_phone0 (from https://www.sih.gov.in/studentRegistration)
+17:35:00	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.sih.gov.in/student_phone1 (from https://www.sih.gov.in/studentRegistration)
+17:35:00	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.sih.gov.in/student_phone2 (from https://www.sih.gov.in/studentRegistration)
+17:35:00	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.sih.gov.in/student_phone3 (from https://www.sih.gov.in/studentRegistration)
+17:35:01	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.sih.gov.in/student_phone4 (from https://www.sih.gov.in/studentRegistration)
+17:35:01	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.sih.gov.in/student_phone5 (from https://www.sih.gov.in/studentRegistration)
+17:35:02	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.sih.gov.in/img/news-channels/economictimes.png (from https://www.sih.gov.in/css/style.css)
+17:35:02	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.sih.gov.in/img/people/Vivek-Kulkarni.png (from https://www.sih.gov.in/sih2017)
+17:35:03	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.sih.gov.in/img/people/anil-paranjape..jpg (from https://www.sih.gov.in/sih2018Hardware)
+17:35:04	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.sih.gov.in/img/partner-supporters/CSIO-Chandigarh..jpg (from https://www.sih.gov.in/sih2018Hardware)
+17:35:04	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.sih.gov.in/img/partner-supporters/IIT_Roorkee..jpg (from https://www.sih.gov.in/sih2018Hardware)
+17:35:04	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.sih.gov.in/img/banner_resources.png (from https://www.sih.gov.in/importantResources)
+17:35:06	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.sih.gov.in/dataTable/images/sort_asc_disabled.png (from https://www.sih.gov.in/dataTable/css/jquery.dataTables.css)
+17:35:06	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.sih.gov.in/dataTable/images/sort_desc_disabled.png (from https://www.sih.gov.in/dataTable/css/jquery.dataTables.css)
+17:35:34	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.sih.gov.in/student_phone0 (from https://www.sih.gov.in/studentRegistration)
+17:35:34	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.sih.gov.in/student_phone1 (from https://www.sih.gov.in/studentRegistration)
+17:35:34	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.sih.gov.in/student_phone2 (from https://www.sih.gov.in/studentRegistration)
+17:35:34	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.sih.gov.in/student_phone3 (from https://www.sih.gov.in/studentRegistration)
+17:35:36	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.sih.gov.in/student_phone4 (from https://www.sih.gov.in/studentRegistration)
+17:35:36	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.sih.gov.in/student_phone5 (from https://www.sih.gov.in/studentRegistration)
+17:35:36	Error: 	"Interrupted transfer" (-4) after 2 retries at link https://www.sih.gov.in/img/news-channels/economictimes.png (from https://www.sih.gov.in/css/style.css)
+17:35:37	Error: 	"Interrupted transfer" (-4) after 2 retries at link https://www.sih.gov.in/img/people/Vivek-Kulkarni.png (from https://www.sih.gov.in/sih2017)
+17:35:37	Error: 	"Interrupted transfer" (-4) after 2 retries at link https://www.sih.gov.in/img/people/anil-paranjape..jpg (from https://www.sih.gov.in/sih2018Hardware)
+17:35:37	Error: 	"Interrupted transfer" (-4) after 2 retries at link https://www.sih.gov.in/img/partner-supporters/CSIO-Chandigarh..jpg (from https://www.sih.gov.in/sih2018Hardware)
+17:35:37	Error: 	"Interrupted transfer" (-4) after 2 retries at link https://www.sih.gov.in/img/partner-supporters/IIT_Roorkee..jpg (from https://www.sih.gov.in/sih2018Hardware)
+17:35:37	Error: 	"Interrupted transfer" (-4) after 2 retries at link https://www.sih.gov.in/img/banner_resources.png (from https://www.sih.gov.in/importantResources)
+17:35:37	Error: 	"Interrupted transfer" (-4) after 2 retries at link https://www.sih.gov.in/dataTable/images/sort_asc_disabled.png (from https://www.sih.gov.in/dataTable/css/jquery.dataTables.css)
+17:35:37	Error: 	"Interrupted transfer" (-4) after 2 retries at link https://www.sih.gov.in/dataTable/images/sort_desc_disabled.png (from https://www.sih.gov.in/dataTable/css/jquery.dataTables.css)
+17:35:55	Error: 	"Interrupted transfer" (-4) after 2 retries at link https://www.sih.gov.in/student_phone0 (from https://www.sih.gov.in/studentRegistration)
+17:35:55	Error: 	"Interrupted transfer" (-4) after 2 retries at link https://www.sih.gov.in/student_phone1 (from https://www.sih.gov.in/studentRegistration)
+17:35:56	Error: 	"Interrupted transfer" (-4) after 2 retries at link https://www.sih.gov.in/student_phone2 (from https://www.sih.gov.in/studentRegistration)
+17:35:56	Error: 	"Interrupted transfer" (-4) after 2 retries at link https://www.sih.gov.in/student_phone3 (from https://www.sih.gov.in/studentRegistration)
+17:35:56	Error: 	"Interrupted transfer" (-4) after 2 retries at link https://www.sih.gov.in/student_phone4 (from https://www.sih.gov.in/studentRegistration)
+17:35:57	Error: 	"Interrupted transfer" (-4) after 2 retries at link https://www.sih.gov.in/student_phone5 (from https://www.sih.gov.in/studentRegistration)
+
+HTTrack Website Copier/3.49-2 mirror complete in 6 minutes 51 seconds : 479 links scanned, 436 files written (44249014 bytes overall) [46607522 bytes received at 113400 bytes/sec], 90938 bytes transferred using HTTP compression in 3 files, ratio 26%
+(14 errors, 29 warnings, 0 messages)

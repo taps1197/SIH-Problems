@@ -1,0 +1,2120 @@
+﻿
+
+<!DOCTYPE html>
+<html>
+
+
+<!-- Mirrored from www.sih.gov.in/sih2019ProblemStatements?page=2 by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 22 Jan 2019 12:03:21 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+        <link rel="icon" href="img/favicon-sih.png" type="image/png" sizes="16x16">
+        <meta charset="utf-8"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1118.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="csrf-token" content="jZrwmmJq7IH9rykDImqludAnn0r2hWi4O00bpa8K">
+        <meta name="author" content="">
+        <title>SIH</title>
+		
+		<script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-131850444-1']);
+            _gaq.push(['_trackPageview']);
+            (function() {
+              var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+              ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+              var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+          </script>
+    <!-- CSS-->
+    <link type="text/css" rel="stylesheet"  href="lib/bootstrap-3.3.7/css/bootstrap.min.css"/>
+    
+  
+    <!-- JS-->
+    <script src="lib/jquery-3.0.0.min.js" type="text/javascript"></script>
+    <script src="lib/bootstrap-3.3.7/js/bootstrap.min.js" type="text/javascript"></script>
+    <link href="../stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" />
+   <script type="text/javascript" src="js/typeahead.js"></script>
+</head>
+
+<body>
+        <a href="#" class="scrollup">Scroll</a>
+        <style>
+        .style-2::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+  background-color: #F5F5F5;
+  width: 6px;
+  height: 6px;
+}
+
+.style-2::-webkit-scrollbar
+{
+  width: 6px;
+  height: 6px;
+	background-color: #F5F5F5;
+}
+
+.style-2::-webkit-scrollbar-thumb
+{
+  width: 6px;
+  height: 6px;
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #000d27;
+}
+#notification_counter{
+    display: none;
+}
+
+blink {
+   
+    color: red;
+}
+@-webkit-keyframes condemned_blink_effect { // for android
+    0% {
+        visibility: hidden;
+    }
+    50% {
+        visibility: hidden;
+    }
+    100% {
+        visibility: visible;
+    }
+}
+@keyframes  condemned_blink_effect {
+    0% {
+        visibility: hidden;
+    }
+    50% {
+        visibility: hidden;
+    }
+    100% {
+        visibility: visible;
+    }
+}
+
+.typeahead {
+    color: black;
+    }
+	.tt-menu { width:100%; }
+	ul.typeahead{margin:0px;padding:10px 0px;
+    background: white !important;}
+	ul.typeahead.dropdown-menu li a {
+        padding: 10px !important;	
+        border-bottom:#CCC 1px solid;
+        color:black;
+        }
+        ul.typeahead.dropdown-menu li {
+            list-style: none !important;
+            margin-left: 0px !important;
+        }
+        
+	ul.typeahead.dropdown-menu li:last-child a { border-bottom:0px !important; }
+
+	.demo-label {font-size:1.5em;color: #686868;font-weight: 500;color:#FFF;}
+	.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {
+		text-decoration: none;
+		background-color: orange;
+		outline: 0;
+	}
+    .image_resize{
+max-width:10em;
+max-height:10em;
+background-repeat:no-repeat;
+background-size:contain;
+background-position:center;
+object-fit: contain;
+}
+.image_resize_pop{
+max-width:15em;
+max-height:15em;
+background-repeat:no-repeat;
+background-size:contain;
+background-position:center;
+object-fit: contain;   
+}
+        </style>
+        
+    <div class="container-fluid">
+           
+        <!--Header Starts-->
+        <header id="header"  class="header">
+
+
+            <div class="row bg-light navbar-fixed-top">
+
+
+			
+			<li class="nav-item"  style="position:absolute;color:white;z-index:9999;width:100%;text-align:center;font-size:21px;font-weight:36;background:#03132E">
+                    <marquee><a class="nav-link" href="javascript:void(0)" data-toggle="modal" data-target="#Registeration_type_modal" style="color: #FFF;text-decoration:none">Registrations for College SPOCS and Student teams; Idea Submissions are open. Last Date for submission of Software PS Ideas is extended till January 23, 2019 ,Last Date for Submission of Hardware PS Idea  is extended till February 05, 2019. Last Date for College SPOC Registration is 23rd January 2019</a> </marquee>
+                    </li>
+
+                    
+                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 left_menu">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            
+                                <i class="fa fa-bars navbar-toggle collapsed show_toggle"
+                                data-toggle="collapse" 
+                                data-target="#bs-example-navbar-collapse-1"
+                                aria-expanded="false"></i>
+                            <a class="navbar-brand"  href="index.html">
+                                    <img src="img/logo.png" />
+                                </a>
+                        </div>
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                              
+
+                                                                    <ul class="navbar-nav nav">
+                                        <li class="dropdown nav-item">
+                                            <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Events
+                                                <span class="caret"></span>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a href="sih2017.html">SIH-2017</a>
+                                                </li>
+                                                <li>
+                                                    <a href="sih2018Software.html">SIH-2018 Software</a>
+                                                </li>
+                                                <li>
+                                                    <a href="sih2018Hardware.html">SIH-2018 Hardware</a>
+                                                </li>
+                                                <li>
+                                                    <a href="sih2019.html">SIH-2019</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown nav-item">
+                                            <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Media
+                                                <span class="caret"></span>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a href="mediaNewsUpdate.html">News Updates</a>
+                                                </li>
+                                                <li>
+                                                    <a href="mediaSocialMedia.html">Social Media</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="importantResources.html">Important Resources</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Support
+                                                <span class="caret"></span>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a href="faqs.html">FAQs</a>
+                                                </li>
+                                                <li>
+                                                    <a href="contactUs.html">Contact Us</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+										 <li class="nav-item">
+                                            <a class="nav-link" href="knowYourCollegeSPOC.html">Know Your College SPOC</a>
+                                        </li>
+                                       
+                                    </ul>
+                            
+                        </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 right_menu">
+                    <div class="pull-right secondory-links">
+                            
+                        <a class="nav-link" href="grievance.html"><blink>Grievance</blink></a> |
+                        <a class="nav-link"  href="signin.html">Log in</a> |
+                        <a class="nav-link" href="javascript:void(0)" data-toggle="modal" data-target="#Registeration_type_modal">Register</a>
+                            
+                    </div>
+
+
+                    
+                </div>
+            </div>
+        </header>
+
+     
+
+
+        
+<link href="dataTable/css/jquery.dataTables.css" rel="stylesheet" />
+<script src="dataTable/js/jquery.dataTables.js" type="text/javascript"></script>
+
+<style>
+        .colomn_border{
+                border: 1px solid black !important;
+        }
+.image_resize1{
+max-width:10em;
+max-height:10em;
+background-repeat:no-repeat;
+background-size:contain;
+background-position:center;
+object-fit: contain;
+width: 129px;
+height: 90px;
+}
+.Filter_label{
+    color:orange;
+}
+        </style>
+<div class="row custom">
+
+           <!--Banner-->
+<div class="carousel">
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" style=" margin-top: 7%;
+        margin-bottom: -8%;">
+            <img src="img/banner_problem_statement.png" alt="Support" />
+        </div>
+
+    </div>
+     <!--Banner-->
+          
+        <!-- SIH Details -->
+        <div class="intro clearfix " style="padding: 35px 40px 250px 20px; ">
+             
+                <div class="table-responsive middle_container">  
+                                                <div class="col-md-12" style="display: block;width: 100%;height: 34px;font-size: 18px;line-height: 1.42857143;color: #03132E;">
+                                <div class="col-md-2"></div>
+                                <div class="col-md-8"> 
+                        <h style="font-size: 18px;float: right; font-weight: bold; color: #03132E">Total Problem Statement(s) (Software) : 334</h>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <h style="font-size: 18px; font-weight: bold; color: #03132E">Total Problem Statement(s) (Hardware) : 196</h><br/>
+                      </div>
+                                  <div class="col-md-2">  </div>
+                                  </div>
+      
+                          
+      
+                              <div class="row" style="width: 100%;">
+                                      <div class="col-md-3">
+                                              Technology Bucket : 
+                                               <select id="technology" class="form-control">
+                                                <option value="QWxs"  selected>All</option>
+                                                                                                         <option value="MQ=="
+                                                                                                                  >Agriculture and Rural Development</option>
+                                                                                                         <option value="Mg=="
+                                                                                                                  >Clean Water</option>
+                                                                                                         <option value="Mw=="
+                                                                                                                  >Robotics & Drones</option>
+                                                                                                         <option value="NA=="
+                                                                                                                  >Healthcare & Biomedical Devices</option>
+                                                                                                         <option value="NQ=="
+                                                                                                                  >Energy / Renewable Energy</option>
+                                                                                                         <option value="Ng=="
+                                                                                                                  >Security & Surveillance</option>
+                                                                                                         <option value="Nw=="
+                                                                                                                  >Smart Communication</option>
+                                                                                                         <option value="OA=="
+                                                                                                                  >Smart Vehicles</option>
+                                                                                                         <option value="MTA="
+                                                                                                                  >Software - Mobile App development</option>
+                                                                                                         <option value="MTE="
+                                                                                                                  >Miscellaneous</option>
+                                                                                                         <option value="MTI="
+                                                                                                                  >Software - Web App development</option>
+                                                                                                         <option value="MTM="
+                                                                                                                  >Travel and Tourism</option>
+                                                                                                         <option value="MTQ="
+                                                                                                                  >Finance</option>
+                                                                                                         <option value="MTU="
+                                                                                                                  >Life Sciences</option>
+                                                                                                         <option value="MTc="
+                                                                                                                  >Waste Management</option>
+                                                                                                         <option value="MTg="
+                                                                                                                  >Food Technology</option>
+                                                                                                         <option value="MTk="
+                                                                                                                  >Students Innovation</option>
+                                                                                                         <option value="MjA="
+                                                                                                                  >Smart Education</option>
+                                                                                                         <option value="MjE="
+                                                                                                                  >Smart Cities</option>
+                                                                                                         <option value="MjI="
+                                                                                                                  >Sports and Fitness</option>
+                                                                                                         <option value="MjM="
+                                                                                                                  >Smart Textiles</option>
+                                                                                                         <option value="MjQ="
+                                                                                                                  >Sustainable Environment</option>
+                                                                                                     </select>
+                                               </div>
+      
+                                               <div class="col-md-3" style="width: 25%">
+                                                      Category 
+                                                      <select id="category" class="form-control">
+                                                      <option value="QWxs"  selected>All</option>
+                                                      <option value="U29mdHdhcmU="  >Software</option>
+                                                      <option value="SGFyZHdhcmU="  >Hardware</option>
+                                                      </select>
+                                                     
+                                              </div>
+                          <div class="col-md-3">
+                              Complexity 
+                              <select id="Complexity" class="form-control">
+                                <option value="QWxs"  selected>All</option>
+                                <option value="U2ltcGxl"  >Simple</option>
+                                <option value="Q29tcGxleA=="  >Complex</option>
+                                <option value="Q29tcGxpY2F0ZWQ="  >Complicated</option>
+                              </select>
+                          </div>
+      
+                
+          <div class="col-md-3">
+          Organization
+          <select id="organization"  data-live-search="true" data-live-search-style="startsWith" class="form-control selectpicker">
+          <option value="QWxs"  selected>All</option>
+                    <option value="QS5JLkMuVC5F"  >A.I.C.T.E</option>
+                    <option value="QUJCIEdJUyBQdnQgTHRk"  >ABB GIS Pvt Ltd</option>
+                    <option value="QWRhbmkgR3JvdXA="  >Adani Group</option>
+                    <option value="QURJUkUtU21hcnQgVmlsbGFnZSwgSmFoYW5naXJhYmFkLCBDdXR0YWNr"  >ADIRE-Smart Village, Jahangirabad, Cuttack</option>
+                    <option value="QUdSIEtub3dsZWRnZSBTZXJ2aWNlcw=="  >AGR Knowledge Services</option>
+                    <option value="QUlDSEFQUFJBSVNFUlMgQVVDVElPTkVSUw=="  >AICHAPPRAISERS AUCTIONERS</option>
+                    <option value="QWxsIEluZGlhIEFyZWNhIEdyb3dlcnMgQXNzb2NpYXRpb24="  >All India Areca Growers Association</option>
+                    <option value="QWxsIEtlcmFsYSBTbWFsbCBTY2FsZSBQVkMgcGlwZSBtYW51ZmFjdHVyZXJzIGFzc29jaWF0aW9u"  >All Kerala Small Scale PVC pipe manufacturers association</option>
+                    <option value="QW1hZGV1cyBTb2Z0d2FyZSBMYWJz"  >Amadeus Software Labs</option>
+                    <option value="QU5JSw=="  >ANIK</option>
+                    <option value="QW5uYW50IEVuZXJzb2wgUHZ0LiBMdGQu"  >Annant Enersol Pvt. Ltd.</option>
+                    <option value="QXBvbGxvIEhvc3BpdGFscw=="  >Apollo Hospitals</option>
+                    <option value="QVJBSQ=="  >ARAI</option>
+                    <option value="QXVyb2JpbmRvIFBoYXJtYQ=="  >Aurobindo Pharma</option>
+                    <option value="QXhpc2NhZGVz"  >Axiscades</option>
+                    <option value="QmFqYWogRWxlY3RyaWNhbHMgTGltaXRlZA=="  >Bajaj Electricals Limited</option>
+                    <option value="QkVNTA=="  >BEML</option>
+                    <option value="QmhhcmF0IEVsZWN0cm9uaWNzIEx0ZA=="  >Bharat Electronics Ltd</option>
+                    <option value="QmhhcmF0IEZvcmdlIEx0ZC4="  >Bharat Forge Ltd.</option>
+                    <option value="QmhhcmF0IHRyYWRlcg=="  >Bharat trader</option>
+                    <option value="QnJpZGdlc3RvbmU="  >Bridgestone</option>
+                    <option value="QlJNIEVuZ2luZWVyaW5nIHNvbHV0aW9ucyAsIEh5ZGVyYWJhZCBMdGQu"  >BRM Engineering solutions , Hyderabad Ltd.</option>
+                    <option value="Q0RLIEdsb2JhbCAoSW5kaWEpUHZ0IEx0ZA=="  >CDK Global (India)Pvt Ltd</option>
+                    <option value="Q2hhaXR0YW55YSBFbnRlcnByaXNl"  >Chaittanya Enterprise</option>
+                    <option value="Q2hlbm5haSBEaXN0cmljdCBTbWFsbCBTY2FsZSBpbmR1c3RyaWVzIEFzc29jaWF0aW9uIChDRElTU0lBKQ=="  >Chennai District Small Scale industries Association (CDISSIA)</option>
+                    <option value="Q0lTQ08gRGV2TmV0"  >CISCO DevNet</option>
+                    <option value="Q0lURCwgSHlkZXJhYmFk"  >CITD, Hyderabad</option>
+                    <option value="Q29nbml6YW50"  >Cognizant</option>
+                    <option value="Q29uc3VsdGFudCAmIFByb2Zlc3NvciwgRElUIFVuaXZlcnN0aXksIERlaHJhZHVu"  >Consultant &amp; Professor, DIT Universtiy, Dehradun</option>
+                    <option value="Q1RUQyxCaHViYW5lc3dhcg=="  >CTTC,Bhubaneswar</option>
+                    <option value="Q3lpZW50"  >Cyient</option>
+                    <option value="RC0yMDYsIFRhbWFyaW5kLCBDRCBTY2VuaWMgQWNyZXMgRmF0b3JkYSwgTWFyZ2FvLCBHb2E="  >D-206, Tamarind, CD Scenic Acres Fatorda, Margao, Goa</option>
+                    <option value="RGFsbWlhIENlbWVudA=="  >Dalmia Cement</option>
+                    <option value="ZGVBc3Jh"  >deAsra</option>
+                    <option value="REVMTCBFTUM="  >DELL EMC</option>
+                    <option value="RGVwdCBvZiBBdG9taWMgRW5lcmd5"  >Dept of Atomic Energy</option>
+                    <option value="RGhhcndhZCBHcm93dGggSW5kcyBBc3NuLCBCZWx1cg=="  >Dharwad Growth Inds Assn, Belur</option>
+                    <option value="REkgUEFUTkE="  >DI PATNA</option>
+                    <option value="RElDLCBTb2xhbg=="  >DIC, Solan</option>
+                    <option value="RElQUA=="  >DIPP</option>
+                    <option value="RHIgUmVkZHkncyBMYWJz"  >Dr Reddy&#039;s Labs</option>
+                    <option value="RW1jdXJlIFBoYXJtYWNldXRpY2FsIEx0ZA=="  >Emcure Pharmaceutical Ltd</option>
+                    <option value="RXJpY3Nzb24="  >Ericsson</option>
+                    <option value="RXZlcmVzdCBJbmR1c3RyaWVzIEx0ZA=="  >Everest Industries Ltd</option>
+                    <option value="ZXpESQ=="  >ezDI</option>
+                    <option value="RklTIFNPTFVUSU9OUyhJTkRJQSk="  >FIS SOLUTIONS(INDIA)</option>
+                    <option value="Rmx1Y29u"  >Flucon</option>
+                    <option value="Rm9yYmVzIE1hcnNoYWxsIFB2dC4gTHRk"  >Forbes Marshall Pvt. Ltd</option>
+                    <option value="Rm91bmRyeSBDbHVzdGVyLCBCZWxnYXVt"  >Foundry Cluster, Belgaum</option>
+                    <option value="RnV0dXJlIEdlbmVyYWxp"  >Future Generali</option>
+                    <option value="R2FpbCAoSW5kaWEpIEx0ZA=="  >Gail (India) Ltd</option>
+                    <option value="R2FyZGVuIFJlYWNoIFNoaXBidWlsZGVycw=="  >Garden Reach Shipbuilders</option>
+                    <option value="R0UgSGVhbHRoY2FyZQ=="  >GE Healthcare</option>
+                    <option value="R29hIFNoaXB5YXJkIEx0ZA=="  >Goa Shipyard Ltd</option>
+                    <option value="R29sZG1hblNhY2hz"  >GoldmanSachs</option>
+                    <option value="R29vbmo="  >Goonj</option>
+                    <option value="R3JlZWZpIFRlY2hub2xvZ2llcw=="  >Greefi Technologies</option>
+                    <option value="R3Jvd3RlY2ggSW5ub3ZhdGlvbnM="  >Growtech Innovations</option>
+                    <option value="SGFybWFu"  >Harman</option>
+                    <option value="SENMIFRFQ0hOT0xPR0lFUyBMSU1JVEVE"  >HCL TECHNOLOGIES LIMITED</option>
+                    <option value="SGVybyBFbGVjdHJpYyBWZWhpY2xlcw=="  >Hero Electric Vehicles</option>
+                    <option value="SGlsbHMySG9tZQ=="  >Hills2Home</option>
+                    <option value="SGltYWx5YW4gQ2hhbWJlciBvZiBDb21tZXJjZQ=="  >Himalyan Chamber of Commerce</option>
+                    <option value="SGluZHVzdGFuIFVuaWxldmVyIEx0ZA=="  >Hindustan Unilever Ltd</option>
+                    <option value="SHVnaGVzIFN5c3RpcXVlIFB2dCBMdGQ="  >Hughes Systique Pvt Ltd</option>
+                    <option value="SHVtYW4gV2VsZmFyZUFzc29jaWF0aW9uLCB2YXJhbmFzaQ=="  >Human WelfareAssociation, varanasi</option>
+                    <option value="SUNBUiwgTWluLiBvZiBBZ3JpY3VsdHVyZQ=="  >ICAR, Min. of Agriculture</option>
+                    <option value="SW5kaWEgSGVhbHRoIExpbmsgUHZ0IEx0ZA=="  >India Health Link Pvt Ltd</option>
+                    <option value="SW5kaWFuIE9pbA=="  >Indian Oil</option>
+                    <option value="SW5kaWFOZW9EZXNpZ25z"  >IndiaNeoDesigns</option>
+                    <option value="SW5mb3N5cw=="  >Infosys</option>
+                    <option value="SVNSTw=="  >ISRO</option>
+                    <option value="SVRDIExpbWl0ZWQ="  >ITC Limited</option>
+                    <option value="S2FscCBTdG9uZSwgTWFoYXNhbXVuZA=="  >Kalp Stone, Mahasamund</option>
+                    <option value="S0cgSW5mbyBTeXN0ZW1zIFB2dCBMdGQ="  >KG Info Systems Pvt Ltd</option>
+                    <option value="S2lybG9za2FyIE9pbCBFbmdpbmVz"  >Kirloskar Oil Engines</option>
+                    <option value="S2lzYWFuIEluZHVzdHJpZXMsIEhhbGR3YW5p"  >Kisaan Industries, Haldwani</option>
+                    <option value="S0lTQU4gRk9SVU0gUFZUIExURA=="  >KISAN FORUM PVT LTD</option>
+                    <option value="S29rdXlvIENhbWxpbg=="  >Kokuyo Camlin</option>
+                    <option value="S290YWsgTWFoaW5kcmEgQmFuaw=="  >Kotak Mahindra Bank</option>
+                    <option value="S1BJVA=="  >KPIT</option>
+                    <option value="S3VtYmFrb25hbSBTdGFpbmxlc3Mgc3RlZWwgdXRlbnNpbHMgYW5kIEVxdWlwbWVudHMgTWFudWZhY3R1cmVycyBBc3NvY2lhdGlvbg=="  >Kumbakonam Stainless steel utensils and Equipments Manufacturers Association</option>
+                    <option value="TS9zIEVhc3Rlcm4gSG9tZSBJbmR1c3RyaWVz"  >M/s Eastern Home Industries</option>
+                    <option value="TS9zIEthc2h5YXAgQnJvdGhlcnMsIEthbnB1cg=="  >M/s Kashyap Brothers, Kanpur</option>
+                    <option value="TS9zIExheG1pIEJ1c2luZXNzIENlbWVudCBDby4gKFApIEx0ZCwgICBQLk8uICYgVmlsbGFnZS0gTW9yYW5naSwgIERpc3R0Li0gSGF6YXJpYmFnaChKaGFya2hhbmQpLTgyNTMwMQ=="  >M/s Laxmi Business Cement Co. (P) Ltd,   P.O. &amp; Village- Morangi,  Distt.- Hazaribagh(Jharkhand)-825301</option>
+                    <option value="TS9zIE1hY3NpYW4gQXBwYXJlbHMgUHZ0IGx0ZC4="  >M/s Macsian Apparels Pvt ltd.</option>
+                    <option value="TS9zIFByZXNjaWVuY2UgQ2FsaWJyYXRpb24gUHZ0IEx0ZA=="  >M/s Prescience Calibration Pvt Ltd</option>
+                    <option value="TS9zIFNhbmd3YW4gRWxlY3RyaWNhbCAoTSk="  >M/s Sangwan Electrical (M)</option>
+                    <option value="TS9zIFNhcGhpcmUgTWVkaWEgU2VydmljZXMsIEthaXRoYWw="  >M/s Saphire Media Services, Kaithal</option>
+                    <option value="TS9zIFNodWJoYW0gR29sZGllZSBNYXNhbGUgUHZ0LiBMdGQuLCBLYW5wdXI="  >M/s Shubham Goldiee Masale Pvt. Ltd., Kanpur</option>
+                    <option value="TS9zIFNwYXJyIEVsZWN0cm9uaWNzIEx0ZC4sIEJhbmdhbG9yZQ=="  >M/s Sparr Electronics Ltd., Bangalore</option>
+                    <option value="TS9zIFVuaXEgUG93ZXIgU29sdXRpb25zIEJhbmdhbG9yZQ=="  >M/s Uniq Power Solutions Bangalore</option>
+                    <option value="TS9zLlZpZ2huaGFydGE="  >M/s.Vighnharta</option>
+                    <option value="TWFoaW5kcmEgRWxlY3RyaWM="  >Mahindra Electric</option>
+                    <option value="TWFoaW5kcmEmTWFoaW5kcmEoRmFybUVxKQ=="  >Mahindra&amp;Mahindra(FarmEq)</option>
+                    <option value="TUFIWUNP"  >MAHYCO</option>
+                    <option value="TWFuaXBhbCBIZWFsdGggRW50ZXJwcmlzZQ=="  >Manipal Health Enterprise</option>
+                    <option value="TWFub2hhciBnbGFzcyB3b3Jrcw=="  >Manohar glass works</option>
+                    <option value="TWFyaWNv"  >Marico</option>
+                    <option value="TWFydXRpIFN1enVraSBJbmRpYSBMdGQu"  >Maruti Suzuki India Ltd.</option>
+                    <option value="TWF0aFdvcmtzIEluZGlhIFB2dCBMdGQ="  >MathWorks India Pvt Ltd</option>
+                    <option value="TWF4IEhlYWx0aGNhcmU="  >Max Healthcare</option>
+                    <option value="TWluLiBvZiBDaXZpbCBBdmlhdGlvbg=="  >Min. of Civil Aviation</option>
+                    <option value="TWluLiBvZiBDb2Fs"  >Min. of Coal</option>
+                    <option value="TWluLiBvZiBSb2FkIFRyYW5zcG9ydA=="  >Min. of Road Transport</option>
+                    <option value="TWluLiBvZiBTdGF0aXN0aWNzICYgUEk="  >Min. of Statistics &amp; PI</option>
+                    <option value="TWluLiBvZiBXYXRlciBSZXNvdXJjZXM="  >Min. of Water Resources</option>
+                    <option value="TWluLm9mIEV4dGVybmFsIEFmZmFpcnM="  >Min.of External Affairs</option>
+                    <option value="TWluLm9mIExhYm91ciAmIEVtcGxveW1udA=="  >Min.of Labour &amp; Employmnt</option>
+                    <option value="TWluZFRyZWU="  >MindTree</option>
+                    <option value="TWluaXN0cnkgb2YgQVlVU0g="  >Ministry of AYUSH</option>
+                    <option value="TWluaXN0cnkgb2YgQ3VsdHVyZQ=="  >Ministry of Culture</option>
+                    <option value="TWluaXN0cnkgb2YgUG93ZXI="  >Ministry of Power</option>
+                    <option value="TWluaXN0cnkgb2YgUmFpbHdheXM="  >Ministry of Railways</option>
+                    <option value="TWluaXN0cnkgb2YgVGV4dGlsZXM="  >Ministry of Textiles</option>
+                    <option value="TWl4T1JH"  >MixORG</option>
+                    <option value="TVNNRSBERVZFTE9QTUVOVCBJTlNUSVRVVEUgREVMSEk="  >MSME DEVELOPMENT INSTITUTE DELHI</option>
+                    <option value="TVNNRSBEaSBHdXdhaGF0aQ=="  >MSME Di Guwahati</option>
+                    <option value="TVNNRS1EZXZlbG9wbWVudCBPcmdhbmlzYXRpb24sIEdvdnQuIG9mIEluZGlhLCBNaW5pc3RyeSBvZiBNU01F"  >MSME-Development Organisation, Govt. of India, Ministry of MSME</option>
+                    <option value="TVNNRS1ESSBBaG1lZGFiYWQ="  >MSME-DI Ahmedabad</option>
+                    <option value="TVNNRS1ESSwgQ0hFTk5BSQ=="  >MSME-DI, CHENNAI</option>
+                    <option value="TVNNRS1UQywgT2tobGEsIE5ldyBEZWxoaQ=="  >MSME-TC, Okhla, New Delhi</option>
+                    <option value="TmFnYXIgTmlnYW0gSmFpcHVyLCBHb3Z0LiBvZiBSYWphc3RoYW4="  >Nagar Nigam Jaipur, Govt. of Rajasthan</option>
+                    <option value="TkFMQ08="  >NALCO</option>
+                    <option value="TkNPUkQ="  >NCORD</option>
+                    <option value="TkNS"  >NCR</option>
+                    <option value="TktTU0lBLCBIdWJsaQ=="  >NKSSIA, Hubli</option>
+                    <option value="T2lsIEluZGlhIEx0ZA=="  >Oil India Ltd</option>
+                    <option value="T21lY2ggSW5kaWEgUHZ0LiBMdGQuLCBBdXJhbmdhYmFk"  >Omech India Pvt. Ltd., Aurangabad</option>
+                    <option value="T3Jpc3NhIFNtYWxsIFNjYWxlIEluZHVzdHJpZXMgQXNzb2NpYXRpb24sIEN1dHRhY2soT1NTSUEp"  >Orissa Small Scale Industries Association, Cuttack(OSSIA)</option>
+                    <option value="UC4gRC4gSGluZHVqYSBIb3NwaXRhbCAmIE1SQw=="  >P. D. Hinduja Hospital &amp; MRC</option>
+                    <option value="UGF0aGlyYWtoYSBGb3VuZGF0aW9u"  >Pathirakha Foundation</option>
+                    <option value="UGF5VE0="  >PayTM</option>
+                    <option value="UGVwcGVyZnJ5"  >Pepperfry</option>
+                    <option value="UGxlem1v"  >Plezmo</option>
+                    <option value="UHJhaiBJbmR1c3RyaWVzIExpbWl0ZWQu"  >Praj Industries Limited.</option>
+                    <option value="UHJlc2lkZW50IExhZ2h1IFVkeW9nIEJoYXJhdGksIFBpbmR3YWRhIChTaXJvaGkp"  >President Laghu Udyog Bharati, Pindwada (Sirohi)</option>
+                    <option value="UXVpY2sgSGVhbA=="  >Quick Heal</option>
+                    <option value="UmFqZGhhbmkgVGVjaG5vbG9neQ=="  >Rajdhani Technology</option>
+                    <option value="UkNG"  >RCF</option>
+                    <option value="Um9iZXJ0IEJvc2NoIEVuZ2luZWVyaW5nICYgQnVzaW5lc3MgU29sdXRpb25zIFByaXZhdGUgTGltaXRlZA=="  >Robert Bosch Engineering &amp; Business Solutions Private Limited</option>
+                    <option value="Uy5LLkxFRCBJbmR1c3RyaWVz"  >S.K.LED Industries</option>
+                    <option value="U2FndW5hIFJ1cmFsIEZvdW5kYXRpb24="  >Saguna Rural Foundation</option>
+                    <option value="U2Ftc3VuZyBSJkQ="  >Samsung R&amp;D</option>
+                    <option value="U2FyYSBTYWUgUHJpdmF0ZSBMaW1pdGVk"  >Sara Sae Private Limited</option>
+                    <option value="U2FyZGEgRGFpcnkgJiBGb29kIFByb2R1Y3RzIEx0ZC4="  >Sarda Dairy &amp; Food Products Ltd.</option>
+                    <option value="U2NobmVpZGVyIEVsZWN0cmlj"  >Schneider Electric</option>
+                    <option value="U2VhIEZvb2QgRXhwb3J0IFByb21vdGlvbiBDb3VuY2ls"  >Sea Food Export Promotion Council</option>
+                    <option value="U2hhbnRoYSAtIFNhbm9maQ=="  >Shantha - Sanofi</option>
+                    <option value="U2hyZWUgQ2VtZW50IEx0ZA=="  >Shree Cement Ltd</option>
+                    <option value="U2hyZWUgU2l0YSBSZWZpbmVycyBQdnQuIEx0ZC4sIER1cmc="  >Shree Sita Refiners Pvt. Ltd., Durg</option>
+                    <option value="U0tGIEluZGlhIEx0ZC4="  >SKF India Ltd.</option>
+                    <option value="U2tpcHBlclNlaWw="  >SkipperSeil</option>
+                    <option value="U29sYW4gSW5kdXN0cmlhbCBBc3NvY2lhdGlvbiwgU29sYW4="  >Solan Industrial Association, Solan</option>
+                    <option value="U1NFUEwgU2tpbGxzIFB2dCBMdGQu"  >SSEPL Skills Pvt Ltd.</option>
+                    <option value="U3VuIFBoYXJtYWNldXRpY2FsIEluZHVzdHJpZXMgTHRk"  >Sun Pharmaceutical Industries Ltd</option>
+                    <option value="VGF0YSBNb3RvcnM="  >Tata Motors</option>
+                    <option value="VGF0YSBTdGVlbCBQcm9jZXNzaW5nIEFuZCBEaXN0cmlidXRpb24gTHRk"  >Tata Steel Processing And Distribution Ltd</option>
+                    <option value="VGhlcm1heA=="  >Thermax</option>
+                    <option value="VGhlcm1vIEZpc2hlcg=="  >Thermo Fisher</option>
+                    <option value="VHJpcGxlIFBsdXMgU29sdXRpb24sIFJhaXB1cg=="  >Triple Plus Solution, Raipur</option>
+                    <option value="VFZTIE1vdG9ycw=="  >TVS Motors</option>
+                    <option value="VXNoYSBGaXNoZXJpZXMsIEJlbWV0YXJh"  >Usha Fisheries, Bemetara</option>
+                    <option value="VjMgIFBvbHkgcGxhc3Q="  >V3  Poly plast</option>
+                    <option value="VmFuZGVybGFuZGU="  >Vanderlande</option>
+                    <option value="Vk13YXJlIFNvZnR3YXJlIEluZGlhIFB2dA=="  >VMware Software India Pvt</option>
+                    <option value="WWFtYWhhIE1vdG9yIFNvbHV0aW9ucyBJbmRpYSBQdnQuIEx0ZC4="  >Yamaha Motor Solutions India Pvt. Ltd.</option>
+                    </select>
+          </div>
+          <br><br>
+          <div class="col-md-12" style="display: block;padding-top: 44px;width: 100%;height: 34px;font-size: 18px;line-height: 1.42857143;color: #03132E;">
+                  <div class="col-md-4">  </div>
+                  <div class="col-md-6"> 
+      
+      <label><input type="radio" name="organization_type" style="transform:scale(1.5);" value="QWxs"  checked> All</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      
+      <label><input type="radio" name="organization_type" style="transform:scale(1.5);" value="Mg=="  > Central Ministry</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <label><input type="radio" name="organization_type" style="transform:scale(1.5);" value="Mw=="  > Industry Personnel</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</div>
+        <div class="col-md-2">  </div>
+        </div>
+
+                        </div>
+                        <br>
+                        <table id="table_id" class="display">
+                            <thead>
+                                    <tr>
+                                       
+                                        <th >Logo</th>
+                                        <th>Organization</th>
+                                        <th >Problem Statement Title</th>
+                                        <th >Category</th>
+                                        <th >Submitted Idea(s) Count</th>
+                                        <th >Technology Bucket</th>
+                                        <th >Complexity</th>
+                                        
+                                        
+                                    </tr>
+
+                                   
+                              </thead>
+                              <tbody>
+                                                                    <tr>
+                                    
+                                    <td style="vertical-align: inherit; width: 10%" class="colomn_border">
+
+                                            <img src="uploads/logo/no_image.png" style="max-width: 150px;max-height: 150px;"   data-toggle="modal" data-target="#UserlogoViewerModal0" class="Avoid_Right_Click image_resize1">
+                                            <div class="modal fade" id="UserlogoViewerModal0" role="dialog">
+                                              <div class="modal-dialog">
+                                              <div class="modal-content">
+                                              <form class="form-horizontal"  enctype="multipart/form-data" role="form" data-toggle="validator"  method="POST" action="#">
+                                              <div class="modal-header">
+                                              <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                              <h4 class="modal-title" style="text-align: center;"> </h4>
+                                              </div>
+                                              <div class="modal-body">
+                        
+                                              <img style="width:100%" src="uploads/logo/no_image.png" class="Avoid_Right_Click img-thumbnail"> 
+                                              </div>
+                                              </form> 
+                                              </div>
+                                              </div>
+                                              </div>
+
+                                    </td>
+                                    <td class="colomn_border">SSEPL Skills Pvt Ltd.</td>
+                                    <td class="colomn_border"><a style ="font-size:15px ;margin-bottom: 4px !important; cursor: pointer"
+                                        data-toggle="modal" data-target="#ViewProblemStatement14"
+                                        >Online Adaptive Assessment Platform</a>
+                                        <div id="ViewProblemStatement14" class="modal fade" role="dialog">
+                                            <div class="modal-dialog">
+                        
+                                            <!-- Modal content-->
+                                            <div class="modal-content">
+                                            <div class="modal-header">
+                                                <img class="navbar-brand" style="height:45px;" src="img/logo.png" />
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                <h6 class="modal-title" style="text-align: center; font-size: 18px; font-weight: bold; margin: 23px; padding-right: 88px;"> Problem Statement Details  </h6>
+                                            </div>
+                                            <div class="modal-body">
+                                               
+                                                <table id="settings" class="table table-bordered table-hover">
+                                                    <thead>
+                                                        <tr>
+                                                        <th    style="vertical-align: top;">Description</th>
+                                                        <td>
+                                                            <div 
+                                                            class="style-2"
+                                                            style="
+                                                            overflow-y: auto;
+                                                            min-height:20px;
+                                                            max-height: 200px;"> Aspirants/Students can be assessed on different fields using this website. Fields can be Reasoning, Aptitude, Technical MCQ, Coding etc.  This will be an online platform with questions at different levels (Difficulty).  Candidate would start at assessment with a medium difficulty question and depending on its response, the platform should decide the next level of questions to be shown (level would increase or decrease as per response). Each question would be assigned a weightage and time duratio</div>
+                                                           </td>
+                                                        </tr>
+
+                                                        <tr>
+                                                            <th>Problem Statement Type</th>
+                                                                        <td>
+                                                                        Industry Personnel                                                                        </td>
+                                                                        
+                                                                        </tr>
+                        
+                                            
+                        
+                                                        <tr>
+                                                        <th>Created At</th>
+                                                        <td>20th October , 2018</td>
+                                                        </tr>
+                        
+                                                                  <tr>
+                                                                  <th>Updated At</th>
+                                                                  <td> 20th October , 2018</td>
+                                                                  </tr>
+                                                        <tr>
+                                                          <th>Youtube Link</th>
+                                                          <td>
+                                                              
+                                                            
+                                                                <a href="https://www.youtube.com/watch?reload=9&amp;v=N0T851LPU" target="_blank"> https://www.youtube.com/watch?reload=9&amp;v=N0T851LPU</a>
+                                                        
+                                                        </td>  
+                                                        </tr>          
+                                                  </thead>
+                                                 </table>
+                                            </div>
+                        
+                                            </div>
+                        
+                                            </div>
+                                            </div>
+                                        </td>
+                                    <td class="colomn_border">Software</td>
+                                    <td class="colomn_border">197</td>
+                                    <td class="colomn_border">Software - Web App development</td>
+                                    <td class="colomn_border">Simple</td>
+                                    
+                                </tr>
+                                                                <tr>
+                                    
+                                    <td style="vertical-align: inherit; width: 10%" class="colomn_border">
+
+                                            <img src="uploads/logo/20181129123230.png" style="max-width: 150px;max-height: 150px;"   data-toggle="modal" data-target="#UserlogoViewerModal1" class="Avoid_Right_Click image_resize1">
+                                            <div class="modal fade" id="UserlogoViewerModal1" role="dialog">
+                                              <div class="modal-dialog">
+                                              <div class="modal-content">
+                                              <form class="form-horizontal"  enctype="multipart/form-data" role="form" data-toggle="validator"  method="POST" action="#">
+                                              <div class="modal-header">
+                                              <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                              <h4 class="modal-title" style="text-align: center;"> </h4>
+                                              </div>
+                                              <div class="modal-body">
+                        
+                                              <img style="width:100%" src="uploads/logo/20181129123230.png" class="Avoid_Right_Click img-thumbnail"> 
+                                              </div>
+                                              </form> 
+                                              </div>
+                                              </div>
+                                              </div>
+
+                                    </td>
+                                    <td class="colomn_border">ABB GIS Pvt Ltd</td>
+                                    <td class="colomn_border"><a style ="font-size:15px ;margin-bottom: 4px !important; cursor: pointer"
+                                        data-toggle="modal" data-target="#ViewProblemStatement15"
+                                        >Big Data challenges for the e-Mobility</a>
+                                        <div id="ViewProblemStatement15" class="modal fade" role="dialog">
+                                            <div class="modal-dialog">
+                        
+                                            <!-- Modal content-->
+                                            <div class="modal-content">
+                                            <div class="modal-header">
+                                                <img class="navbar-brand" style="height:45px;" src="img/logo.png" />
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                <h6 class="modal-title" style="text-align: center; font-size: 18px; font-weight: bold; margin: 23px; padding-right: 88px;"> Problem Statement Details  </h6>
+                                            </div>
+                                            <div class="modal-body">
+                                               
+                                                <table id="settings" class="table table-bordered table-hover">
+                                                    <thead>
+                                                        <tr>
+                                                        <th    style="vertical-align: top;">Description</th>
+                                                        <td>
+                                                            <div 
+                                                            class="style-2"
+                                                            style="
+                                                            overflow-y: auto;
+                                                            min-height:20px;
+                                                            max-height: 200px;"> An EV user must be assured that power will be available when needed especially in an unfamiliar area. A route optimization approach based on Machine Learning needs to be considered to ensure that vehicle drivers are led to the nearest or their preferred e-Station.</div>
+                                                           </td>
+                                                        </tr>
+
+                                                        <tr>
+                                                            <th>Problem Statement Type</th>
+                                                                        <td>
+                                                                        Industry Personnel                                                                        </td>
+                                                                        
+                                                                        </tr>
+                        
+                                            
+                        
+                                                        <tr>
+                                                        <th>Created At</th>
+                                                        <td>22nd October , 2018</td>
+                                                        </tr>
+                        
+                                                                  <tr>
+                                                                  <th>Updated At</th>
+                                                                  <td> 22nd October , 2018</td>
+                                                                  </tr>
+                                                        <tr>
+                                                          <th>Youtube Link</th>
+                                                          <td>
+                                                              
+                                                            
+                                                                <a href="https://www.youtube.com/na" target="_blank"> https://www.youtube.com/na</a>
+                                                        
+                                                        </td>  
+                                                        </tr>          
+                                                  </thead>
+                                                 </table>
+                                            </div>
+                        
+                                            </div>
+                        
+                                            </div>
+                                            </div>
+                                        </td>
+                                    <td class="colomn_border">Software</td>
+                                    <td class="colomn_border">22</td>
+                                    <td class="colomn_border">Smart Vehicles</td>
+                                    <td class="colomn_border">Simple</td>
+                                    
+                                </tr>
+                                                                <tr>
+                                    
+                                    <td style="vertical-align: inherit; width: 10%" class="colomn_border">
+
+                                            <img src="uploads/logo/20181129123230.png" style="max-width: 150px;max-height: 150px;"   data-toggle="modal" data-target="#UserlogoViewerModal2" class="Avoid_Right_Click image_resize1">
+                                            <div class="modal fade" id="UserlogoViewerModal2" role="dialog">
+                                              <div class="modal-dialog">
+                                              <div class="modal-content">
+                                              <form class="form-horizontal"  enctype="multipart/form-data" role="form" data-toggle="validator"  method="POST" action="#">
+                                              <div class="modal-header">
+                                              <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                              <h4 class="modal-title" style="text-align: center;"> </h4>
+                                              </div>
+                                              <div class="modal-body">
+                        
+                                              <img style="width:100%" src="uploads/logo/20181129123230.png" class="Avoid_Right_Click img-thumbnail"> 
+                                              </div>
+                                              </form> 
+                                              </div>
+                                              </div>
+                                              </div>
+
+                                    </td>
+                                    <td class="colomn_border">ABB GIS Pvt Ltd</td>
+                                    <td class="colomn_border"><a style ="font-size:15px ;margin-bottom: 4px !important; cursor: pointer"
+                                        data-toggle="modal" data-target="#ViewProblemStatement16"
+                                        >Big Data challenges for e-Mobility- infra operator</a>
+                                        <div id="ViewProblemStatement16" class="modal fade" role="dialog">
+                                            <div class="modal-dialog">
+                        
+                                            <!-- Modal content-->
+                                            <div class="modal-content">
+                                            <div class="modal-header">
+                                                <img class="navbar-brand" style="height:45px;" src="img/logo.png" />
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                <h6 class="modal-title" style="text-align: center; font-size: 18px; font-weight: bold; margin: 23px; padding-right: 88px;"> Problem Statement Details  </h6>
+                                            </div>
+                                            <div class="modal-body">
+                                               
+                                                <table id="settings" class="table table-bordered table-hover">
+                                                    <thead>
+                                                        <tr>
+                                                        <th    style="vertical-align: top;">Description</th>
+                                                        <td>
+                                                            <div 
+                                                            class="style-2"
+                                                            style="
+                                                            overflow-y: auto;
+                                                            min-height:20px;
+                                                            max-height: 200px;"> The E-Charging Operators (equivalent of today’s petrol pump operators) need a Big Data approach to ensure their customers (end-users) satisfaction and optimum utilization of the e-Charging stations. The operator may have fast or slow charging infrastructure with their own payment terms and timings. Based on a data-centric approach the operator can offer dynamic pricing at stipulated times and manage the peak demand accordingly.</div>
+                                                           </td>
+                                                        </tr>
+
+                                                        <tr>
+                                                            <th>Problem Statement Type</th>
+                                                                        <td>
+                                                                        Industry Personnel                                                                        </td>
+                                                                        
+                                                                        </tr>
+                        
+                                            
+                        
+                                                        <tr>
+                                                        <th>Created At</th>
+                                                        <td>22nd October , 2018</td>
+                                                        </tr>
+                        
+                                                                  <tr>
+                                                                  <th>Updated At</th>
+                                                                  <td> 22nd October , 2018</td>
+                                                                  </tr>
+                                                        <tr>
+                                                          <th>Youtube Link</th>
+                                                          <td>
+                                                              
+                                                            
+                                                                <a href="https://www.youtube.com/na" target="_blank"> https://www.youtube.com/na</a>
+                                                        
+                                                        </td>  
+                                                        </tr>          
+                                                  </thead>
+                                                 </table>
+                                            </div>
+                        
+                                            </div>
+                        
+                                            </div>
+                                            </div>
+                                        </td>
+                                    <td class="colomn_border">Software</td>
+                                    <td class="colomn_border">11</td>
+                                    <td class="colomn_border">Smart Vehicles</td>
+                                    <td class="colomn_border">Simple</td>
+                                    
+                                </tr>
+                                                                <tr>
+                                    
+                                    <td style="vertical-align: inherit; width: 10%" class="colomn_border">
+
+                                            <img src="uploads/logo/20181129123230.png" style="max-width: 150px;max-height: 150px;"   data-toggle="modal" data-target="#UserlogoViewerModal3" class="Avoid_Right_Click image_resize1">
+                                            <div class="modal fade" id="UserlogoViewerModal3" role="dialog">
+                                              <div class="modal-dialog">
+                                              <div class="modal-content">
+                                              <form class="form-horizontal"  enctype="multipart/form-data" role="form" data-toggle="validator"  method="POST" action="#">
+                                              <div class="modal-header">
+                                              <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                              <h4 class="modal-title" style="text-align: center;"> </h4>
+                                              </div>
+                                              <div class="modal-body">
+                        
+                                              <img style="width:100%" src="uploads/logo/20181129123230.png" class="Avoid_Right_Click img-thumbnail"> 
+                                              </div>
+                                              </form> 
+                                              </div>
+                                              </div>
+                                              </div>
+
+                                    </td>
+                                    <td class="colomn_border">ABB GIS Pvt Ltd</td>
+                                    <td class="colomn_border"><a style ="font-size:15px ;margin-bottom: 4px !important; cursor: pointer"
+                                        data-toggle="modal" data-target="#ViewProblemStatement17"
+                                        >Big Data challenges for e-Mobility- Smart City</a>
+                                        <div id="ViewProblemStatement17" class="modal fade" role="dialog">
+                                            <div class="modal-dialog">
+                        
+                                            <!-- Modal content-->
+                                            <div class="modal-content">
+                                            <div class="modal-header">
+                                                <img class="navbar-brand" style="height:45px;" src="img/logo.png" />
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                <h6 class="modal-title" style="text-align: center; font-size: 18px; font-weight: bold; margin: 23px; padding-right: 88px;"> Problem Statement Details  </h6>
+                                            </div>
+                                            <div class="modal-body">
+                                               
+                                                <table id="settings" class="table table-bordered table-hover">
+                                                    <thead>
+                                                        <tr>
+                                                        <th    style="vertical-align: top;">Description</th>
+                                                        <td>
+                                                            <div 
+                                                            class="style-2"
+                                                            style="
+                                                            overflow-y: auto;
+                                                            min-height:20px;
+                                                            max-height: 200px;"> A Smart city will have various elements like power, water, etc monitored through a central control room. The Control Center will be the single source of information for administrators and decision makers. The new set of challenges faced by a Smart Grid, e-Charging network and e-Vehicle users culminate in the Smart City Control room as an indicator of traffic movement/congestion, power demand and various other related parameters. The solution need to be integrated into the Smart city control room</div>
+                                                           </td>
+                                                        </tr>
+
+                                                        <tr>
+                                                            <th>Problem Statement Type</th>
+                                                                        <td>
+                                                                        Industry Personnel                                                                        </td>
+                                                                        
+                                                                        </tr>
+                        
+                                            
+                        
+                                                        <tr>
+                                                        <th>Created At</th>
+                                                        <td>22nd October , 2018</td>
+                                                        </tr>
+                        
+                                                                  <tr>
+                                                                  <th>Updated At</th>
+                                                                  <td> 22nd October , 2018</td>
+                                                                  </tr>
+                                                        <tr>
+                                                          <th>Youtube Link</th>
+                                                          <td>
+                                                              
+                                                            
+                                                                <a href="https://www.youtube.com/na" target="_blank"> https://www.youtube.com/na</a>
+                                                        
+                                                        </td>  
+                                                        </tr>          
+                                                  </thead>
+                                                 </table>
+                                            </div>
+                        
+                                            </div>
+                        
+                                            </div>
+                                            </div>
+                                        </td>
+                                    <td class="colomn_border">Software</td>
+                                    <td class="colomn_border">24</td>
+                                    <td class="colomn_border">Smart Cities</td>
+                                    <td class="colomn_border">Complex</td>
+                                    
+                                </tr>
+                                                                <tr>
+                                    
+                                    <td style="vertical-align: inherit; width: 10%" class="colomn_border">
+
+                                            <img src="uploads/logo/20181129123230.png" style="max-width: 150px;max-height: 150px;"   data-toggle="modal" data-target="#UserlogoViewerModal4" class="Avoid_Right_Click image_resize1">
+                                            <div class="modal fade" id="UserlogoViewerModal4" role="dialog">
+                                              <div class="modal-dialog">
+                                              <div class="modal-content">
+                                              <form class="form-horizontal"  enctype="multipart/form-data" role="form" data-toggle="validator"  method="POST" action="#">
+                                              <div class="modal-header">
+                                              <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                              <h4 class="modal-title" style="text-align: center;"> </h4>
+                                              </div>
+                                              <div class="modal-body">
+                        
+                                              <img style="width:100%" src="uploads/logo/20181129123230.png" class="Avoid_Right_Click img-thumbnail"> 
+                                              </div>
+                                              </form> 
+                                              </div>
+                                              </div>
+                                              </div>
+
+                                    </td>
+                                    <td class="colomn_border">ABB GIS Pvt Ltd</td>
+                                    <td class="colomn_border"><a style ="font-size:15px ;margin-bottom: 4px !important; cursor: pointer"
+                                        data-toggle="modal" data-target="#ViewProblemStatement18"
+                                        >Locate faults in Power Distribution Networks</a>
+                                        <div id="ViewProblemStatement18" class="modal fade" role="dialog">
+                                            <div class="modal-dialog">
+                        
+                                            <!-- Modal content-->
+                                            <div class="modal-content">
+                                            <div class="modal-header">
+                                                <img class="navbar-brand" style="height:45px;" src="img/logo.png" />
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                <h6 class="modal-title" style="text-align: center; font-size: 18px; font-weight: bold; margin: 23px; padding-right: 88px;"> Problem Statement Details  </h6>
+                                            </div>
+                                            <div class="modal-body">
+                                               
+                                                <table id="settings" class="table table-bordered table-hover">
+                                                    <thead>
+                                                        <tr>
+                                                        <th    style="vertical-align: top;">Description</th>
+                                                        <td>
+                                                            <div 
+                                                            class="style-2"
+                                                            style="
+                                                            overflow-y: auto;
+                                                            min-height:20px;
+                                                            max-height: 200px;"> Over the time, cities have built the power distribution asset in phases with varied product technologies. At the time of faults in the physical infrastructure, the distribution utilities take huge time to identify and pin point the fault in the physical infrastructure (especially the cable faults, which is mix of overhead and underground infra). Also, faults in networks are catered to only after they occur. A low cost prediction solution will help in better planning for ad-hoc maintenance.</div>
+                                                           </td>
+                                                        </tr>
+
+                                                        <tr>
+                                                            <th>Problem Statement Type</th>
+                                                                        <td>
+                                                                        Industry Personnel                                                                        </td>
+                                                                        
+                                                                        </tr>
+                        
+                                            
+                        
+                                                        <tr>
+                                                        <th>Created At</th>
+                                                        <td>22nd October , 2018</td>
+                                                        </tr>
+                        
+                                                                  <tr>
+                                                                  <th>Updated At</th>
+                                                                  <td> 22nd October , 2018</td>
+                                                                  </tr>
+                                                        <tr>
+                                                          <th>Youtube Link</th>
+                                                          <td>
+                                                              
+                                                            
+                                                                <a href="https://www.youtube.com/na" target="_blank"> https://www.youtube.com/na</a>
+                                                        
+                                                        </td>  
+                                                        </tr>          
+                                                  </thead>
+                                                 </table>
+                                            </div>
+                        
+                                            </div>
+                        
+                                            </div>
+                                            </div>
+                                        </td>
+                                    <td class="colomn_border">Software</td>
+                                    <td class="colomn_border">35</td>
+                                    <td class="colomn_border">Energy / Renewable Energy</td>
+                                    <td class="colomn_border">Complex</td>
+                                    
+                                </tr>
+                                                                <tr>
+                                    
+                                    <td style="vertical-align: inherit; width: 10%" class="colomn_border">
+
+                                            <img src="uploads/logo/20181215151910.jpg" style="max-width: 150px;max-height: 150px;"   data-toggle="modal" data-target="#UserlogoViewerModal5" class="Avoid_Right_Click image_resize1">
+                                            <div class="modal fade" id="UserlogoViewerModal5" role="dialog">
+                                              <div class="modal-dialog">
+                                              <div class="modal-content">
+                                              <form class="form-horizontal"  enctype="multipart/form-data" role="form" data-toggle="validator"  method="POST" action="#">
+                                              <div class="modal-header">
+                                              <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                              <h4 class="modal-title" style="text-align: center;"> </h4>
+                                              </div>
+                                              <div class="modal-body">
+                        
+                                              <img style="width:100%" src="uploads/logo/20181215151910.jpg" class="Avoid_Right_Click img-thumbnail"> 
+                                              </div>
+                                              </form> 
+                                              </div>
+                                              </div>
+                                              </div>
+
+                                    </td>
+                                    <td class="colomn_border">Hughes Systique Pvt Ltd</td>
+                                    <td class="colomn_border"><a style ="font-size:15px ;margin-bottom: 4px !important; cursor: pointer"
+                                        data-toggle="modal" data-target="#ViewProblemStatement20"
+                                        >Secure distributed transaction recording system</a>
+                                        <div id="ViewProblemStatement20" class="modal fade" role="dialog">
+                                            <div class="modal-dialog">
+                        
+                                            <!-- Modal content-->
+                                            <div class="modal-content">
+                                            <div class="modal-header">
+                                                <img class="navbar-brand" style="height:45px;" src="img/logo.png" />
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                <h6 class="modal-title" style="text-align: center; font-size: 18px; font-weight: bold; margin: 23px; padding-right: 88px;"> Problem Statement Details  </h6>
+                                            </div>
+                                            <div class="modal-body">
+                                               
+                                                <table id="settings" class="table table-bordered table-hover">
+                                                    <thead>
+                                                        <tr>
+                                                        <th    style="vertical-align: top;">Description</th>
+                                                        <td>
+                                                            <div 
+                                                            class="style-2"
+                                                            style="
+                                                            overflow-y: auto;
+                                                            min-height:20px;
+                                                            max-height: 200px;"> Design a system by which we can record and make visible/non-falsifiable/non-repudiable the different transactions between a common citizen and a govt. department for getting and managing a particular form of license/permit. For a specific example, we consider the driving permit. The system should be able to track the different transactions starting from getting the permit (retail/commercial), renewal, recording of traffic rule violations, and possibly, revocation/suspension</div>
+                                                           </td>
+                                                        </tr>
+
+                                                        <tr>
+                                                            <th>Problem Statement Type</th>
+                                                                        <td>
+                                                                        Industry Personnel                                                                        </td>
+                                                                        
+                                                                        </tr>
+                        
+                                            
+                        
+                                                        <tr>
+                                                        <th>Created At</th>
+                                                        <td>22nd October , 2018</td>
+                                                        </tr>
+                        
+                                                                  <tr>
+                                                                  <th>Updated At</th>
+                                                                  <td> 22nd October , 2018</td>
+                                                                  </tr>
+                                                        <tr>
+                                                          <th>Youtube Link</th>
+                                                          <td>
+                                                              
+                                                            
+                                                                <a href="https://www.youtube.com/watch?v=1wlQyFhD_dU&amp;featur" target="_blank"> https://www.youtube.com/watch?v=1wlQyFhD_dU&amp;featur</a>
+                                                        
+                                                        </td>  
+                                                        </tr>          
+                                                  </thead>
+                                                 </table>
+                                            </div>
+                        
+                                            </div>
+                        
+                                            </div>
+                                            </div>
+                                        </td>
+                                    <td class="colomn_border">Software</td>
+                                    <td class="colomn_border">24</td>
+                                    <td class="colomn_border">Security &amp; Surveillance</td>
+                                    <td class="colomn_border">Complicated</td>
+                                    
+                                </tr>
+                                                                <tr>
+                                    
+                                    <td style="vertical-align: inherit; width: 10%" class="colomn_border">
+
+                                            <img src="uploads/logo/20181127180404.png" style="max-width: 150px;max-height: 150px;"   data-toggle="modal" data-target="#UserlogoViewerModal6" class="Avoid_Right_Click image_resize1">
+                                            <div class="modal fade" id="UserlogoViewerModal6" role="dialog">
+                                              <div class="modal-dialog">
+                                              <div class="modal-content">
+                                              <form class="form-horizontal"  enctype="multipart/form-data" role="form" data-toggle="validator"  method="POST" action="#">
+                                              <div class="modal-header">
+                                              <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                              <h4 class="modal-title" style="text-align: center;"> </h4>
+                                              </div>
+                                              <div class="modal-body">
+                        
+                                              <img style="width:100%" src="uploads/logo/20181127180404.png" class="Avoid_Right_Click img-thumbnail"> 
+                                              </div>
+                                              </form> 
+                                              </div>
+                                              </div>
+                                              </div>
+
+                                    </td>
+                                    <td class="colomn_border">Quick Heal</td>
+                                    <td class="colomn_border"><a style ="font-size:15px ;margin-bottom: 4px !important; cursor: pointer"
+                                        data-toggle="modal" data-target="#ViewProblemStatement21"
+                                        >Effectively writing YARA rules to detect malwares</a>
+                                        <div id="ViewProblemStatement21" class="modal fade" role="dialog">
+                                            <div class="modal-dialog">
+                        
+                                            <!-- Modal content-->
+                                            <div class="modal-content">
+                                            <div class="modal-header">
+                                                <img class="navbar-brand" style="height:45px;" src="img/logo.png" />
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                <h6 class="modal-title" style="text-align: center; font-size: 18px; font-weight: bold; margin: 23px; padding-right: 88px;"> Problem Statement Details  </h6>
+                                            </div>
+                                            <div class="modal-body">
+                                               
+                                                <table id="settings" class="table table-bordered table-hover">
+                                                    <thead>
+                                                        <tr>
+                                                        <th    style="vertical-align: top;">Description</th>
+                                                        <td>
+                                                            <div 
+                                                            class="style-2"
+                                                            style="
+                                                            overflow-y: auto;
+                                                            min-height:20px;
+                                                            max-height: 200px;"> •	Search engine for YARA signature pattern selection.
+•	Automatically generating YARA rules/signatures that cover a specific set of files.
+•	Short scanning time for YARA signatures on large amount of data (clean set) for identifying the best signature candidate.
+•	The generated YARA rules should be generic i.e. single signature should cover multiple malware samples.</div>
+                                                           </td>
+                                                        </tr>
+
+                                                        <tr>
+                                                            <th>Problem Statement Type</th>
+                                                                        <td>
+                                                                        Industry Personnel                                                                        </td>
+                                                                        
+                                                                        </tr>
+                        
+                                            
+                        
+                                                        <tr>
+                                                        <th>Created At</th>
+                                                        <td>22nd October , 2018</td>
+                                                        </tr>
+                        
+                                                                  <tr>
+                                                                  <th>Updated At</th>
+                                                                  <td> 22nd October , 2018</td>
+                                                                  </tr>
+                                                        <tr>
+                                                          <th>Youtube Link</th>
+                                                          <td>
+                                                              
+                                                            
+                                                                <a href="https://www.youtube.com/watch?v=GxLPIqtRgIE" target="_blank"> https://www.youtube.com/watch?v=GxLPIqtRgIE</a>
+                                                        
+                                                        </td>  
+                                                        </tr>          
+                                                  </thead>
+                                                 </table>
+                                            </div>
+                        
+                                            </div>
+                        
+                                            </div>
+                                            </div>
+                                        </td>
+                                    <td class="colomn_border">Software</td>
+                                    <td class="colomn_border">15</td>
+                                    <td class="colomn_border">Security &amp; Surveillance</td>
+                                    <td class="colomn_border">Complex</td>
+                                    
+                                </tr>
+                                                                <tr>
+                                    
+                                    <td style="vertical-align: inherit; width: 10%" class="colomn_border">
+
+                                            <img src="uploads/logo/20181128163140.png" style="max-width: 150px;max-height: 150px;"   data-toggle="modal" data-target="#UserlogoViewerModal7" class="Avoid_Right_Click image_resize1">
+                                            <div class="modal fade" id="UserlogoViewerModal7" role="dialog">
+                                              <div class="modal-dialog">
+                                              <div class="modal-content">
+                                              <form class="form-horizontal"  enctype="multipart/form-data" role="form" data-toggle="validator"  method="POST" action="#">
+                                              <div class="modal-header">
+                                              <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                              <h4 class="modal-title" style="text-align: center;"> </h4>
+                                              </div>
+                                              <div class="modal-body">
+                        
+                                              <img style="width:100%" src="uploads/logo/20181128163140.png" class="Avoid_Right_Click img-thumbnail"> 
+                                              </div>
+                                              </form> 
+                                              </div>
+                                              </div>
+                                              </div>
+
+                                    </td>
+                                    <td class="colomn_border">CDK Global (India)Pvt Ltd</td>
+                                    <td class="colomn_border"><a style ="font-size:15px ;margin-bottom: 4px !important; cursor: pointer"
+                                        data-toggle="modal" data-target="#ViewProblemStatement22"
+                                        >Common Corporate Social Responsibility(CSR) Portal</a>
+                                        <div id="ViewProblemStatement22" class="modal fade" role="dialog">
+                                            <div class="modal-dialog">
+                        
+                                            <!-- Modal content-->
+                                            <div class="modal-content">
+                                            <div class="modal-header">
+                                                <img class="navbar-brand" style="height:45px;" src="img/logo.png" />
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                <h6 class="modal-title" style="text-align: center; font-size: 18px; font-weight: bold; margin: 23px; padding-right: 88px;"> Problem Statement Details  </h6>
+                                            </div>
+                                            <div class="modal-body">
+                                               
+                                                <table id="settings" class="table table-bordered table-hover">
+                                                    <thead>
+                                                        <tr>
+                                                        <th    style="vertical-align: top;">Description</th>
+                                                        <td>
+                                                            <div 
+                                                            class="style-2"
+                                                            style="
+                                                            overflow-y: auto;
+                                                            min-height:20px;
+                                                            max-height: 200px;"> Currently most organisation have their own CSR activities and perform social events separately.
+Due to lack of resources and budgets, it limits their ability to perform these activities on larger scale or remote areas. Also other corporates may not be aware of such events, so that they can participate as well.
+So idea is to develop an organised  Common CSR portal where different corporates or individuals can come  together and collectively provide valuable service to society.</div>
+                                                           </td>
+                                                        </tr>
+
+                                                        <tr>
+                                                            <th>Problem Statement Type</th>
+                                                                        <td>
+                                                                        Industry Personnel                                                                        </td>
+                                                                        
+                                                                        </tr>
+                        
+                                            
+                        
+                                                        <tr>
+                                                        <th>Created At</th>
+                                                        <td>22nd October , 2018</td>
+                                                        </tr>
+                        
+                                                                  <tr>
+                                                                  <th>Updated At</th>
+                                                                  <td> 22nd October , 2018</td>
+                                                                  </tr>
+                                                        <tr>
+                                                          <th>Youtube Link</th>
+                                                          <td>
+                                                              
+                                                            
+                                                                <a href="https://www.youtube.com/watch?v=09hpnAUmtuI&amp;t=20s" target="_blank"> https://www.youtube.com/watch?v=09hpnAUmtuI&amp;t=20s</a>
+                                                        
+                                                        </td>  
+                                                        </tr>          
+                                                  </thead>
+                                                 </table>
+                                            </div>
+                        
+                                            </div>
+                        
+                                            </div>
+                                            </div>
+                                        </td>
+                                    <td class="colomn_border">Software</td>
+                                    <td class="colomn_border">128</td>
+                                    <td class="colomn_border">Software - Web App development</td>
+                                    <td class="colomn_border">Simple</td>
+                                    
+                                </tr>
+                                                                <tr>
+                                    
+                                    <td style="vertical-align: inherit; width: 10%" class="colomn_border">
+
+                                            <img src="uploads/logo/20181128163140.png" style="max-width: 150px;max-height: 150px;"   data-toggle="modal" data-target="#UserlogoViewerModal8" class="Avoid_Right_Click image_resize1">
+                                            <div class="modal fade" id="UserlogoViewerModal8" role="dialog">
+                                              <div class="modal-dialog">
+                                              <div class="modal-content">
+                                              <form class="form-horizontal"  enctype="multipart/form-data" role="form" data-toggle="validator"  method="POST" action="#">
+                                              <div class="modal-header">
+                                              <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                              <h4 class="modal-title" style="text-align: center;"> </h4>
+                                              </div>
+                                              <div class="modal-body">
+                        
+                                              <img style="width:100%" src="uploads/logo/20181128163140.png" class="Avoid_Right_Click img-thumbnail"> 
+                                              </div>
+                                              </form> 
+                                              </div>
+                                              </div>
+                                              </div>
+
+                                    </td>
+                                    <td class="colomn_border">CDK Global (India)Pvt Ltd</td>
+                                    <td class="colomn_border"><a style ="font-size:15px ;margin-bottom: 4px !important; cursor: pointer"
+                                        data-toggle="modal" data-target="#ViewProblemStatement23"
+                                        >Birth/Death Registration Integration With Services</a>
+                                        <div id="ViewProblemStatement23" class="modal fade" role="dialog">
+                                            <div class="modal-dialog">
+                        
+                                            <!-- Modal content-->
+                                            <div class="modal-content">
+                                            <div class="modal-header">
+                                                <img class="navbar-brand" style="height:45px;" src="img/logo.png" />
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                <h6 class="modal-title" style="text-align: center; font-size: 18px; font-weight: bold; margin: 23px; padding-right: 88px;"> Problem Statement Details  </h6>
+                                            </div>
+                                            <div class="modal-body">
+                                               
+                                                <table id="settings" class="table table-bordered table-hover">
+                                                    <thead>
+                                                        <tr>
+                                                        <th    style="vertical-align: top;">Description</th>
+                                                        <td>
+                                                            <div 
+                                                            class="style-2"
+                                                            style="
+                                                            overflow-y: auto;
+                                                            min-height:20px;
+                                                            max-height: 200px;"> There are different services which are linked to Birth and Death of an individual. If these services are integrated together it will help individuals. Maternity Nursing home register’s child birth to Municipal Office Then Parent / guardian can one time enter the name of their child and get a print of Birth Certificate after few days. No need to visit MO. In case of Death registration at MO then build a system which will notify all tear down services to update death status of the individual.</div>
+                                                           </td>
+                                                        </tr>
+
+                                                        <tr>
+                                                            <th>Problem Statement Type</th>
+                                                                        <td>
+                                                                        Industry Personnel                                                                        </td>
+                                                                        
+                                                                        </tr>
+                        
+                                            
+                        
+                                                        <tr>
+                                                        <th>Created At</th>
+                                                        <td>22nd October , 2018</td>
+                                                        </tr>
+                        
+                                                                  <tr>
+                                                                  <th>Updated At</th>
+                                                                  <td> 22nd October , 2018</td>
+                                                                  </tr>
+                                                        <tr>
+                                                          <th>Youtube Link</th>
+                                                          <td>
+                                                              
+                                                            
+                                                                <a href="https://www.youtube.com/watch?v=QDZz3Yq7YTM&amp;t=24s" target="_blank"> https://www.youtube.com/watch?v=QDZz3Yq7YTM&amp;t=24s</a>
+                                                        
+                                                        </td>  
+                                                        </tr>          
+                                                  </thead>
+                                                 </table>
+                                            </div>
+                        
+                                            </div>
+                        
+                                            </div>
+                                            </div>
+                                        </td>
+                                    <td class="colomn_border">Software</td>
+                                    <td class="colomn_border">208</td>
+                                    <td class="colomn_border">Software - Mobile App development</td>
+                                    <td class="colomn_border">Simple</td>
+                                    
+                                </tr>
+                                                                <tr>
+                                    
+                                    <td style="vertical-align: inherit; width: 10%" class="colomn_border">
+
+                                            <img src="uploads/logo/20181128163140.png" style="max-width: 150px;max-height: 150px;"   data-toggle="modal" data-target="#UserlogoViewerModal9" class="Avoid_Right_Click image_resize1">
+                                            <div class="modal fade" id="UserlogoViewerModal9" role="dialog">
+                                              <div class="modal-dialog">
+                                              <div class="modal-content">
+                                              <form class="form-horizontal"  enctype="multipart/form-data" role="form" data-toggle="validator"  method="POST" action="#">
+                                              <div class="modal-header">
+                                              <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                              <h4 class="modal-title" style="text-align: center;"> </h4>
+                                              </div>
+                                              <div class="modal-body">
+                        
+                                              <img style="width:100%" src="uploads/logo/20181128163140.png" class="Avoid_Right_Click img-thumbnail"> 
+                                              </div>
+                                              </form> 
+                                              </div>
+                                              </div>
+                                              </div>
+
+                                    </td>
+                                    <td class="colomn_border">CDK Global (India)Pvt Ltd</td>
+                                    <td class="colomn_border"><a style ="font-size:15px ;margin-bottom: 4px !important; cursor: pointer"
+                                        data-toggle="modal" data-target="#ViewProblemStatement24"
+                                        >Ambulance Services</a>
+                                        <div id="ViewProblemStatement24" class="modal fade" role="dialog">
+                                            <div class="modal-dialog">
+                        
+                                            <!-- Modal content-->
+                                            <div class="modal-content">
+                                            <div class="modal-header">
+                                                <img class="navbar-brand" style="height:45px;" src="img/logo.png" />
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                <h6 class="modal-title" style="text-align: center; font-size: 18px; font-weight: bold; margin: 23px; padding-right: 88px;"> Problem Statement Details  </h6>
+                                            </div>
+                                            <div class="modal-body">
+                                               
+                                                <table id="settings" class="table table-bordered table-hover">
+                                                    <thead>
+                                                        <tr>
+                                                        <th    style="vertical-align: top;">Description</th>
+                                                        <td>
+                                                            <div 
+                                                            class="style-2"
+                                                            style="
+                                                            overflow-y: auto;
+                                                            min-height:20px;
+                                                            max-height: 200px;"> Ambulance services are important for Health &amp; Medical facilities. Requirement is to build a mobile app similar to Ola / Uber cab services. But it will be for Ambulance services. This app will have Ambulance driver’s register their availability and location. Both Executive at Emergency Helpline  and User’s on the other hand on App’s Client interface will book an ambulance. 
+This will promise a fast and reliable ambulance service in case of emergency.</div>
+                                                           </td>
+                                                        </tr>
+
+                                                        <tr>
+                                                            <th>Problem Statement Type</th>
+                                                                        <td>
+                                                                        Industry Personnel                                                                        </td>
+                                                                        
+                                                                        </tr>
+                        
+                                            
+                        
+                                                        <tr>
+                                                        <th>Created At</th>
+                                                        <td>22nd October , 2018</td>
+                                                        </tr>
+                        
+                                                                  <tr>
+                                                                  <th>Updated At</th>
+                                                                  <td> 22nd October , 2018</td>
+                                                                  </tr>
+                                                        <tr>
+                                                          <th>Youtube Link</th>
+                                                          <td>
+                                                              
+                                                            
+                                                                <a href="https://www.youtube.com/watch?v=ui4o6zOdA7k" target="_blank"> https://www.youtube.com/watch?v=ui4o6zOdA7k</a>
+                                                        
+                                                        </td>  
+                                                        </tr>          
+                                                  </thead>
+                                                 </table>
+                                            </div>
+                        
+                                            </div>
+                        
+                                            </div>
+                                            </div>
+                                        </td>
+                                    <td class="colomn_border">Software</td>
+                                    <td class="colomn_border">399</td>
+                                    <td class="colomn_border">Healthcare &amp; Biomedical Devices</td>
+                                    <td class="colomn_border">Complex</td>
+                                    
+                                </tr>
+                                                         </tbody>
+                        </table>
+						<ul class="pagination">
+        
+                    <li><a href="sih2019ProblemStatements2679.html?page=1" rel="prev">&laquo;</a></li>
+        
+        
+                    
+            
+            
+                                                                        <li><a href="sih2019ProblemStatements2679.html?page=1">1</a></li>
+                                                                                <li class="active"><span>2</span></li>
+                                                                                <li><a href="sih2019ProblemStatements9ba9.html?page=3">3</a></li>
+                                                                                <li><a href="sih2019ProblemStatementsfdb0.html?page=4">4</a></li>
+                                                                                <li><a href="sih2019ProblemStatementsaf4d.html?page=5">5</a></li>
+                                                                                <li><a href="sih2019ProblemStatementsc575.html?page=6">6</a></li>
+                                                                                <li><a href="sih2019ProblemStatements235c.html?page=7">7</a></li>
+                                                                                <li><a href="sih2019ProblemStatementsfdfa.html?page=8">8</a></li>
+                                                                    
+                            <li class="disabled"><span>...</span></li>
+            
+            
+                                
+            
+            
+                                                                        <li><a href="sih2019ProblemStatements02d1.html?page=50">50</a></li>
+                                                                                <li><a href="sih2019ProblemStatements6ee8.html?page=51">51</a></li>
+                                                        
+        
+                    <li><a href="sih2019ProblemStatements9ba9.html?page=3" rel="next">&raquo;</a></li>
+            </ul>
+
+                        </div>
+                        
+                   
+              </div>
+
+    
+            </div>  
+
+            <script>
+     
+
+ $(document).ready( function () {
+                $('#table_id').dataTable( {
+                "pageLength": 100,
+				 "paging": false
+                } );
+                } );
+
+$('#technology').on('change', function () {
+     var technologyVal = $("#technology option:selected").val();
+     var categoryVal = $("#category option:selected").val();
+     var Complexity = $("#Complexity option:selected").val();
+     
+     var organization = $("#organization option:selected").val();
+     var organization_type = $("input[name='organization_type']:checked").val();
+  
+  window.open("https://www.sih.gov.in/sih2019ProblemStatements/"+technologyVal+"/"+categoryVal+"/"+Complexity+"/"+organization+"/"+organization_type,"_self");
+
+});
+
+$('#category').on('change', function () {
+  
+      var technologyVal = $("#technology option:selected").val();
+      var categoryVal = $("#category option:selected").val();
+      var Complexity = $("#Complexity option:selected").val();
+     var organization = $("#organization option:selected").val();
+     var organization_type = $("input[name='organization_type']:checked").val();
+  
+  window.open("https://www.sih.gov.in/sih2019ProblemStatements/"+technologyVal+"/"+categoryVal+"/"+Complexity+"/"+organization+"/"+organization_type,"_self");
+
+});
+$('#Complexity').on('change', function () {
+  var technologyVal = $("#technology option:selected").val();
+  var categoryVal = $("#category option:selected").val();
+  var Complexity = $("#Complexity option:selected").val();
+ var organization = $("#organization option:selected").val();
+ var organization_type = $("input[name='organization_type']:checked").val();
+  
+  window.open("https://www.sih.gov.in/sih2019ProblemStatements/"+technologyVal+"/"+categoryVal+"/"+Complexity+"/"+organization+"/"+organization_type,"_self");
+
+});
+
+$('#User').on('change', function () {
+  var technologyVal = $("#technology option:selected").val();
+  var categoryVal = $("#category option:selected").val();
+  var Complexity = $("#Complexity option:selected").val();
+ var organization = $("#organization option:selected").val();
+ var organization_type = $("input[name='organization_type']:checked").val();
+  
+  window.open("https://www.sih.gov.in/sih2019ProblemStatements/"+technologyVal+"/"+categoryVal+"/"+Complexity+"/"+organization+"/"+organization_type,"_self");
+
+});
+$('#organization').on('change', function () {
+  var technologyVal = $("#technology option:selected").val();
+  var categoryVal = $("#category option:selected").val();
+  var Complexity = $("#Complexity option:selected").val();
+  var organization = $("#organization option:selected").val();
+  var organization_type = $("input[name='organization_type']:checked").val();
+  
+  window.open("https://www.sih.gov.in/sih2019ProblemStatements/"+technologyVal+"/"+categoryVal+"/"+Complexity+"/"+organization+"/"+organization_type,"_self");
+
+});
+
+$("input[name='organization_type']").on('change', function () { 
+  var technologyVal = $("#technology option:selected").val();
+  
+  var categoryVal = $("#category option:selected").val();
+  
+  var Complexity = $("#Complexity option:selected").val();
+  
+  var organization = $("#organization option:selected").val();
+  
+  var organization_type = $("input[name='organization_type']:checked").val();
+  
+  window.open("https://www.sih.gov.in/sih2019ProblemStatements/"+technologyVal+"/"+categoryVal+"/"+Complexity+"/"+organization+"/"+organization_type,"_self");
+});
+
+
+                </script>
+
+        <footer class="footer row"  style="padding: 17px 0 21px 25px;">
+
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 col-sm-12 xs-footer-logo" style="padding-left: 104px;">
+                    <img src="img/footer_logo.png" alt="SIH" />
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 col-sm-12 xs-footer-logo">
+
+                    <a class="sih-app-logo" target="_blank" href="https://play.google.com/store/apps/details?id=com.psl.sihapps&amp;hl=en">
+                        <img src="img/sih_app_icon.png" class="pull-left" alt="SIH" /> DOWNLOAD
+                        <br> Smart India Hackathon app
+                        <br>from Google Play Store
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 col-sm-12" style="padding-left: 0px;">
+                    <ul class="footer-links">
+                    <li>
+                        <i class="fa fa-phone"></i> +91 20 49006587
+                    </li>
+                    
+                    <li>
+                        <i class="fa fa-clock-o"></i> Mon to Fri-10.00 AM to 6:00 PM
+                    </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 col-sm-12">
+                    <ul class="footer-links">
+
+                        <li>
+                            <a class="fb" target="_blank" href="https://www.facebook.com/i4C.India/">
+                                <img src="img/fb-icon.png" alt="Facebook" />
+                            </a>
+                        </li>
+                        <li>
+                            <a class="fb" target="_blank" href="https://twitter.com/sih2019">
+                                <img src="img/twitter-icon.png" alt="twitter" />
+                            </a>
+                        </li>
+                        <li>
+                        <a class="fb" target="_blank" href="https://www.instagram.com/sih2019/">
+                            <img src="img/instagram-logo-white.png" alt="Instagram" width="25" height="25">
+                        </a>
+                    </li>
+                    </ul>
+                </div>
+                 
+
+                <!-- Copyright-->
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="text-align:center;margin-top: 15px;">
+                        &copy; 2019 Smart India Hackathon. All rights reserved
+                </div>
+            </footer>
+
+       
+    </div>
+
+    <div class="modal fade" id="Profile_status" role="dialog">
+            <div class="modal-dialog">
+            
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title"  style="text-align: center;">Profile Status</h4>
+                </div>
+                <div class="modal-body">
+                  <p>Your Application is not approved. Please contact to Admin .</p>
+                </div>
+                
+              </div>
+              
+            </div>
+          </div>
+
+          
+          <div class="modal fade" id="logoUploaderModal" role="dialog">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                        <form class="form-horizontal"  enctype="multipart/form-data" role="form" data-toggle="validator" id="logo_upload_form"  method="POST" action="#">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title"  style="text-align: center;">Upload Logo</h4>
+                        </div>
+                            <div class="modal-body">
+                                
+                                   
+                                        <input type="hidden" name="_token" value="jZrwmmJq7IH9rykDImqludAnn0r2hWi4O00bpa8K">
+                                        <div class="form-group">
+                                         
+                                          <div class="col-lg-4 col-md-4 col-xs-4 col-sm-4">
+                                                <label  for="email">Select File:</label>
+                                              </div>
+                                              <div class="col-lg-8 col-md-8 col-xs-8 col-sm-8">
+                                            <input type="file" name="logo" id="logo">
+                                          </div>
+                                        </div>
+                                        <span id="upload_msg"></span>      
+                                <strong style="color:red"><br>
+                                                          File Size Should Be Less Than 5 MB.<br>
+                                                          File Type Should Be of Format(s) (JPG,JPEG,PNG).<br>
+                                                        
+                                </strong>         
+                            </div>
+
+                            <div class="modal-footer">
+                                
+                                    <button type="submit" class="btn btn-default" id="submit_button">Submit</button>
+                            </div>
+
+                        </form> 
+                       
+                </div>
+    
+                </div>
+                </div>
+
+
+                <div class="modal fade" id="logoViewerModal" role="dialog">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                            <form class="form-horizontal"  enctype="multipart/form-data" role="form" data-toggle="validator" id="logo_upload_form"  method="POST" action="#">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title" style="text-align: center;"> Logo</h4>
+                            </div>
+                                <div class="modal-body">
+                                    
+                                                              
+                                        
+                                </div>
+    
+                               
+    
+                            </form> 
+                           
+                    </div>
+                    </div>
+                    </div>
+
+          
+    <script src="js/common.js"></script>  
+
+        <script>
+        $(document).ready(function(){
+            setTimeout(function() {
+                $('#Alert_msg').fadeOut('fast');
+}, 3000); 
+});
+
+ function CancelEvent() {
+            var e = window.event;
+            //e.cancelBubble is supported by IE
+            e.cancelBubble = true;
+            e.returnValue = false;
+            //e.stopPropagation works only in Firefox.
+            if (e.stopPropagation) {
+                e.stopPropagation();
+                e.preventDefault();
+            }
+        }
+
+        //Disable the click event of form 
+        $(document).keypress(function (e) {
+            //Check which key is pressed on the document or window
+            if (e.which == 13) {
+                // if it is 13 that means enter key pressed, then call the function to cancel the event
+                CancelEvent();
+            }
+        });
+
+
+          $(document).ready(function(){
+                     $.ajaxSetup({
+               
+                       headers: {
+               
+                       'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+               
+                       }
+               
+                       });
+            var frm = $('#logo_upload_form');
+
+            frm.submit(function (e) {
+                
+                var formData = new FormData($(this)[0]);
+               
+                 var file = document.querySelector("#logo");
+                if(file.files[0]==undefined){
+                        $('#upload_msg').css('color', 'red');
+                         document.getElementById("upload_msg").innerHTML ='Select An Image';
+                            setTimeout(function() {
+                               
+                            }, 3000); 
+                } else{
+
+                     fileSize =file.files[0].size //size in kb
+                        fileSize = fileSize / 1048576; //size in mb 
+
+                    if ( /\.(jpe?g|png|PNG|JPG|JPEG)$/i.test(file.files[0].name) === false ) { 
+                        $('#upload_msg').css('color', 'red');
+                         document.getElementById("upload_msg").innerHTML ='Invalid Image Type';
+                            setTimeout(function() {
+                                document.getElementById("upload_msg").innerHTML ="";
+                            }, 2000); 
+                    }
+
+                    else{
+
+                         if(fileSize>5 ){
+                            $('#upload_msg').css('color', 'red');
+                        document.getElementById("upload_msg").innerHTML ='File size exceeds the limit';
+                            setTimeout(function() {
+                                document.getElementById("upload_msg").innerHTML ="";
+                            }, 2000); 
+                    }
+                    else{
+                        $("#submit_button").hide();
+                                $.ajax({
+                                url: "https://www.sih.gov.in/upload_logo",
+                                data:formData,
+                                dataType:'json',
+                                type:'post',
+                                processData: false,
+                                contentType: false,
+                                success: function (data) {
+                                    if(data.msg=="Successfully Uploaded"){
+                                        $('#upload_msg').css('color', 'green');
+                                        $("#submit_button").hide();
+                                        $('#logo_upload_form')[0].reset();
+                            document.getElementById("upload_msg").innerHTML =data.msg;
+                            $('#logo_image').attr('src',data.Full_image);
+                            $('#thumnail_image').attr('src',data.Full_image);
+                            
+                            setTimeout(function() {
+                               
+                            }, 2000); 
+                                    }
+
+                                    else{
+                                        $("#submit_button").show();
+                                        $('#upload_msg').css('color', 'red');
+                            document.getElementById("upload_msg").innerHTML =data.msg;
+                            setTimeout(function() {
+                               
+                            }, 2000); 
+                                    }
+
+                          
+                                },
+                                error: function (data) {
+                               
+                                },
+                                });
+
+                    }
+
+                       
+                        
+                        }
+                }
+               
+                e.preventDefault();       
+         });
+  
+               });
+
+               function showlogoUploadSubmitButton(){
+                $("#submit_button").show();
+                $('#logo_upload_form')[0].reset();
+                document.getElementById("upload_msg").innerHTML ="";
+               }
+
+               function  gotoStatement_comment(id){
+                var url="https://www.sih.gov.in/edit_problem_statement/"+id;
+                var win = window.open(url, '_self');
+                win.focus();
+            }
+
+            
+        </script>
+        
+
+    <script>
+    $('.Avoid_Right_Click').bind('contextmenu', function(e) {
+    return false;
+    }); 
+    </script>
+
+
+<div id="problemstatement_type_modal" class="modal fade" role="dialog">
+        <div class="modal-dialog" style="width:97%">
+      
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title"></h4>
+            </div>
+            <div class="modal-body">
+             
+                    <input type="radio" style="margin-left: 7%;" name="User_Register_Type"  value="1"  onclick="SendUserToItsPage(4)">
+                    <span class="sign_up_type" style="color:orange">Problem statements from Organizations/ Ministries</span>&nbsp;&nbsp;&nbsp; 
+
+                    <input type="radio" style="margin-left: 15%;"  name="User_Register_Type"  value="2" onclick="SendUserToItsPage(5)">
+                    <span class="sign_up_type" style="color:orange">Students Innovation</span> 
+                    </div>
+                    <div class="modal-footer"></div> 
+                     <div class="col-md-12">     
+                       
+                    </div>
+                  <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+      
+        </div>
+      </div>
+
+
+
+<div id="Registeration_type_modal" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+          
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header" style="color: #33A75C">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden='true'>&times;</button>
+                  <h4 class="modal-title" style="font-size: 20px; font-weight: bold; text-align: center;">Select Registration Type</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                    <div class="col-md-4" style="border-right: 1px dotted #C2C2C2; padding-left: 7%; height: 135px;"><img class="navbar-brand" style="height:65px;" src="img/logo.png" />
+                    </div>
+    
+                 <div class="col-md-8" style="padding-left: 10%">
+                    <input style="transform:scale(1.3);" type="radio" name="User_Register_Type"  value="1"  onclick="SendUserToItsPage(1)">
+                        <span class="sign_up_type" style="color:#03132E">Problem Statement Creater</span>&nbsp;&nbsp;&nbsp;  
+                        <br>
+                        <input style="transform:scale(1.3);" type="radio" name="User_Register_Type"  value="2" onclick="SendUserToItsPage(2)">
+                        <span class="sign_up_type" style="color:#03132E">College Faculty SPOC</span>&nbsp;&nbsp;&nbsp; 
+                        <br>
+                        <input style="transform:scale(1.3);" type="radio" name="User_Register_Type" value="3" onclick="SendUserToItsPage(3)" >
+                        <span class="sign_up_type" style="color:#03132E">Students Team Leader</span>&nbsp;&nbsp;&nbsp;
+                        
+                        <!-- <br><input type="radio" name="User_Register_Type" value="4" onclick="SendUserToItsPage(4)" >
+                        <span class="sign_up_type" style="color:#03132E">Company SPOC</span>&nbsp;&nbsp;&nbsp; -->
+                    </div>
+                   </div>      
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+          
+            </div>
+          </div>
+            <script>
+            function SendUserToItsPage(input){
+switch (input) {
+    case 1:
+    window.open("signup.html","_self");
+    break;
+
+    case 2:
+    window.open("collegeRegistration.html","_self");
+    break;
+
+    case 3:
+    window.open("studentRegistration.html","_self");
+     break;
+
+    case 4:
+    window.open("sih2019ProblemStatements.html","_self");
+     break;
+     
+    case 5:
+    window.open("sih2019ProblemStatementstudentInnovation.html","_self");
+     break;   
+}
+
+    }
+
+//     $(document).ready(function() {
+//     $('.js-example-basic-single').select2();
+// });
+
+ $(document).ready(function () {
+        $('#College_Name').typeahead({
+            source: function (query, result) {
+
+                
+                if(query.length>=2){
+                    document.getElementById("college_search_loader").style.display = "block";
+                   setTimeout(function() {
+                $.ajax({
+                    url: "https://www.sih.gov.in/search_college_name",
+					data: 'query=' + query,            
+                    dataType: "json",
+                    type: "POST",
+                    success: function (data) {
+						result($.map(data, function (item) {
+							return item;
+                        }));
+                    }
+                    
+                });
+                document.getElementById("college_search_loader").style.display = "none";
+            }, 3000);
+                }
+            },
+            updater:function (item) {
+                $('[id$=selected_college]').val(item.aicte_code);
+                return item;
+}
+        });
+
+
+         $('#type_head_display_name').typeahead({
+            source: function (query, result) {
+
+                if(query.length>=2){
+                    document.getElementById("college_search_loader").style.display = "block";
+                   setTimeout(function() {
+                $.ajax({
+                    url: "https://www.sih.gov.in/search_college_name",
+					data: 'query=' + query,            
+                    dataType: "json",
+                    type: "POST",
+                    success: function (data) {
+						result($.map(data, function (item) {
+							return item;
+                        }));
+                    }
+                    
+                });
+                document.getElementById("college_search_loader").style.display = "none";
+            }, 3000);
+                }
+                
+
+                
+            },
+            updater:function (item) {
+                $('[id$=College_Name_for_Student]').val(item.id);
+                return item;
+}
+        });
+    });
+
+    function sendToproblemStatement(){
+        // window.open("https://www.sih.gov.in/sih2019ProblemStatements","_self");
+        
+    }
+
+    function hideThis(){
+    $('#HideThisSubmitButton').hide();  
+  }
+
+          </script>
+
+
+
+
+   
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"441b2e5302","applicationID":"232363356","transactionName":"ZwRUNhdWXBFWVRZdC15OdwERXl0MGEULXFYAUA8yF1hQDlJbMUAFRARbBwtDQQ==","queueTime":0,"applicationTime":353,"atts":"S0NXQF9MTx8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+
+
+<!-- Mirrored from www.sih.gov.in/sih2019ProblemStatements?page=2 by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 22 Jan 2019 12:03:44 GMT -->
+</html>

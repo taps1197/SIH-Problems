@@ -1,0 +1,1763 @@
+﻿
+/****************************************************/
+/*                      COMMON                      */
+/****************************************************/
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+    font-family: Helvetica;
+}
+
+
+
+.carousel-control.right{
+    right:69px !important;
+}
+h1{
+    margin-bottom: 20px;
+    font-weight : bold;
+    font-size : 39px;
+    color : #465A64;
+    letter-spacing: -1px;
+    text-align: center;
+}
+h4.event-section-headings{
+    /* margin-left: 15px;*/
+    margin-bottom: 20px;
+    font-weight : bold;
+    font-size : 35px;
+    color : #465A64;
+    letter-spacing: -1px;
+}
+
+.scrollup{
+    font-size: 0;
+    position: fixed;
+    z-index: 5;
+    bottom: 50px;
+    right: 20px;
+    background: #fff url(../img/scroll-to-top.png) center center no-repeat;
+    opacity: 0.75;
+    background-size: 45px 45px;
+    width: 45px;
+    height: 45px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    border-radius: 50%;
+}
+
+.youtube-player {
+    position: relative;
+    padding-bottom: 56.23%;
+    /* Use 75% for 4:3 videos */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #000;
+    margin: 5px;
+}
+
+.youtube-player iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    background: transparent;
+}
+
+.youtube-player img {
+    bottom: 0;
+    display: block;
+    left: 0;
+    margin: auto;
+    max-width: 100%;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: none;
+    height: auto;
+    cursor: pointer;
+    -webkit-transition: .4s all;
+    -moz-transition: .4s all;
+    transition: .4s all;
+}
+
+.youtube-player img:hover {
+    -webkit-filter: brightness(75%);
+}
+
+.youtube-player .play {
+    height: 49px;
+    width: 71px;
+    left: 50%;
+    top: 50%;
+    margin-left: -35px;
+    margin-top: -25px;
+    position: absolute;
+    background: url("../img/YouTube_Play_Button_inactive.png") no-repeat;
+    cursor: pointer;
+}
+.youtube-player:hover .play {
+    background: url("../img/YouTube_Play_Button.png") no-repeat;
+}
+/****************************************************/
+/*                      HEADER                      */
+/****************************************************/
+/*NAVIGATION--------------------------*/
+.navbar-fixed-top{
+    top: 0;
+    border-width: 0 0 1px;
+    right: 30px;
+    left: 30px;
+    background: #fff; 
+    -webkit-box-shadow: 0 1px 1px 0 #808080;
+    box-shadow: 0 1px 1px 0 #808080;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;    
+}
+.sticky .navbar-fixed-top{
+    right: 0;
+    left: 0;
+}
+.navbar{
+    padding:0; 
+}
+.navbar-brand{
+    margin: 17px 36px 0 8px;;
+    margin-left: 8px;
+    padding: 0;
+}
+.navbar-nav .nav-link{
+    padding: 25px 20px;
+    line-height: 40px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    color:#333;
+    /* padding: 0; */
+    display: block;
+}
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus,
+.navbar-nav .nav-link:active{
+    text-decoration: none;
+    color:#608aaa;
+    background: #fbfbfb;
+}
+.navbar-nav .nav-item.active{
+    
+    border-bottom: 4px solid #608aaa;
+}
+.navbar-nav .nav-item.active .nav-link{
+    color:#608aaa;
+    padding-bottom: 26px;
+}
+.dropdown-menu>li>a{
+    padding: 10px 40px 10px 20px;
+}
+.sticky {
+position: fixed;
+top: 0;
+width: 100%;
+height:50px;
+background: #fff;
+z-index: 1000;
+left:0;
+}
+.sticky + .content {
+/* padding-top: 102px; */
+}
+.sticky .navbar-fixed-top{
+    left:0;
+    right:0;
+}
+.sticky .navbar-nav .nav-link{
+    padding: 8px 20px;
+}
+.sticky .navbar-nav .nav-item.active .nav-link{
+    padding-bottom: 8px;
+}
+.sticky .secondory-links{
+    margin: 6px 40px 0 0;
+}
+.sticky .navbar-brand{
+    margin: 5px 25px 0 10px;
+}
+.sticky .navbar-brand img{
+    height: 49px;
+}
+#header .navbar-nav .nav-link{
+    padding: 24px 7px;
+    -webkit-transition: padding 0.4s;
+    transition: padding 0.4s;
+}
+#header.sticky .navbar-nav .nav-link {
+    padding: 8px 20px;
+}
+
+#header .navbar-brand{
+    margin: 17px 36px 0 8px;
+    -webkit-transition: margin 0.4s;
+    transition: margin 0.4s;
+}
+#header.sticky .navbar-brand {
+    margin: 5px 25px 0 10px;
+}
+#header .navbar-brand img {
+    height: 58px;
+    -webkit-transition: height 0.4s;
+    transition: height 0.4s;    
+}
+#header.sticky .navbar-brand img {
+    height: 49px;
+}
+
+/*secondory Links---------------------*/
+.secondory-links{
+    text-align: right;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-right: 35px;
+    position: relative;
+    -webkit-transition: margin 0.4s;
+    transition: margin 0.4s;     
+}
+.sticky .secondory-links{
+    margin: 6px 40px 0 0;
+}
+.secondory-links a.nav-link{
+    color: #333;
+    display: inline;
+    text-transform: uppercase;
+    padding: 4px 5px;
+    font-size: 13px;
+    line-height: 40px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.secondory-links span.glyphicon-search{
+    font-size: 16px;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    z-index: 5;
+    right: -30px;
+    top: 7px;
+}
+.secondory-links span.glyphicon-search:before {
+    content: "\e003";
+    position: absolute;
+    right: 5px;
+    z-index: 1;
+    top: 10px;
+}
+
+.secondory-links .glyphicon-search input[type=text] {
+    width: 0px;
+    padding:0 7px;
+    color: #fff;
+    line-height: 30px;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    border:none;
+    border-radius:5px;
+    font:normal 14px/30px sans-serif;
+}
+
+/* When the input field gets focus, change its width to 100% */
+.secondory-links .glyphicon-search:hover{
+    width: 100%;
+}
+.secondory-links .glyphicon-search:hover input[type=text] {
+    width: 100%;
+    color: #666;
+    border:1px solid #dfdfdf;
+}
+.secondory-links .glyphicon-search input[type=text]:focus{
+    outline-width: 0;
+}
+
+/****************************************************/
+/*                      carousel                    */
+/****************************************************/
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+    margin-left: -14px;
+}
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next{
+    margin-right: -80px;
+}
+/*latest-news------------------------*/
+.latest-news{
+    margin-top: 0;
+}
+.latest-news div{
+    color: #fff;
+    font-size: 13px;
+    line-height: 16px;
+    height: 100px;
+}
+.latest-news .item div[class^="col-lg-"]{
+    padding: 0px 0px 9px 1px;
+    font-size:14px;
+}
+.latest-news .orange{
+    background-color:#e88f00
+}
+.latest-news .blue{
+    background-color:#2d8cdc
+}
+.latest-news .green{
+    background-color:#4c8900
+}
+.latest-news .grey{
+    background-color:#475965
+}
+.partners{
+    border-bottom:1px solid #dfdfdf;
+    padding: 5px 0;
+    text-align: center;
+}
+.partners img{
+    /* margin: 0 auto;
+    width: 700px;
+    display: block; */
+}
+.partners .logos.title{
+    color: #7a8abb;
+    font-size: 18px;
+}
+.partners img.logo-margin{
+    margin-bottom: 0;
+    height: 55px;
+    margin: 10px 17px;
+}
+.latest-news div.news-heading{
+    font-size: 17px;
+    line-height: 27px;
+    padding-top: 12px;
+    text-align: right;
+    background: #475965 url(../img/speaker-icon.png) 25px center no-repeat;
+    background-size: 48px;
+}
+.latest-news .carousel-inner > .item a:hover >div{
+    opacity: 0.80;
+}
+/*Introducrion-----------------------*/
+.intro{
+    padding: 30px 40px 0 20px;
+}
+.intro h3{
+    font-size:35px;
+    color:#42535b;
+    margin-top: -10px;
+}
+.intro p{
+    font-size: 14px;
+    color: #333;
+    line-height: 18px;
+    margin-bottom: 10px;
+}
+.intro ul{
+    margin-bottom: 10px;
+}
+.intro ul li{
+    font-size: 14px;
+    color: #333;
+    margin-top: 0;
+    padding-left: 15px;
+    margin-left: 18px;
+    margin-bottom: 0;
+    list-style: disc;
+}
+
+/*SIH HACKATHON EVENT IMAGE--------------*/
+.image-holder {
+    position:relative; 
+    margin-top: -90px;
+  }    
+  .image-holder:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(23, 23, 23, 0.65);
+    transition: all .3s linear;
+  }
+  .image-holder:hover{
+      cursor: pointer;
+  }
+  .image-holder:hover:before { 
+    background: none;
+  }
+  .image-holder a {
+    border: 1px solid #fff;
+    padding: 7px;
+    width: 77%;
+    color: #fff;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    margin-left: -38%;
+    font-size: 23px;
+}
+
+.image-holder:hover a{
+    background:#000000d6;
+    transition: all .2s linear;
+}
+.image-holder:hover a:hover{
+    background:#ffffff;
+    color: #0F1323;
+    text-decoration: none;
+}
+.image-holder a.sw{
+    top:40%;
+}
+.image-holder a.hw{
+    top:60%;
+}
+  .event-images>div{
+    margin-top: 30px;
+  }
+  .event-images .image-holder img{
+    width:100%;
+  }
+  .event-images .title{
+    width: 100%;
+    padding-top: 15px;
+    font-size: 26px;
+    font-weight: bold;
+    color: #fff;
+    height: 90px;
+    text-align: center;
+    z-index: 1;
+    position: relative;
+    pointer-events: none
+  }
+
+  .multi-item-carousel .carousel-inner > .item {
+    transition: 500ms ease-in-out left;
+  }
+  .multi-item-carousel .carousel-inner .active.left {
+    left: -33%;
+  }
+  .multi-item-carousel .carousel-inner .active.right {
+    left: 33%;
+  }
+  .multi-item-carousel .carousel-inner .next {
+    left: 33%;
+  }
+  .multi-item-carousel .carousel-inner .prev {
+    left: -33%;
+  }
+  @media all and (transform-3d), (-webkit-transform-3d) {
+    .multi-item-carousel .carousel-inner > .item {
+      transition: 500ms ease-in-out left;
+      transition: 500ms ease-in-out all;
+      backface-visibility: visible;
+      transform: none!important;
+    }
+  }
+  .multi-item-carousel .carouse-control.left,
+  .multi-item-carousel .carouse-control.right {
+    background-image: none;
+  }
+  .event-images .carousel-control{
+    width: 85px;
+    height:50px;
+    top: 50%;
+    background: none;
+    opacity: 1;
+  }
+  .event-images .carousel-control .glyphicon-chevron-left,
+  .event-images .carousel-control .icon-prev{
+    margin: 0;
+  }
+  .event-images .carousel-control .glyphicon-chevron-right, 
+  .event-images .carousel-control .icon-next{
+    margin: 0;
+  }
+  .event-images .carousel-control .glyphicon-chevron-left, 
+  .event-images .carousel-control .glyphicon-chevron-right, 
+  .event-images .carousel-control .icon-next, 
+  .event-images .carousel-control .icon-prev{
+    top: -25%;
+    height: 55px;
+    width: 55px;
+  }
+  .event-images .glyphicon.glyphicon-chevron-left:before,
+  .event-images .glyphicon.glyphicon-chevron-right:before{
+    display: none;
+  }
+  .event-images .glyphicon.glyphicon-chevron-left{
+    background: url(../img/carousel-left.png) 0 0 no-repeat;
+  }  
+  .event-images .glyphicon.glyphicon-chevron-right{
+    background: url(../img/carousel-right.png) 0 0 no-repeat;
+  }
+/****************************************************/
+/*                      FOOTER                      */
+/****************************************************/
+/*Footer Links-----------------------*/
+footer{
+    background: #000d27;
+    /* margin-top: 90px; */
+    top:0;
+    padding: 35px 0 50px 25px;
+    font-size: 13px;
+    font-weight: bold;
+    
+}
+footer, footer a{
+    color: #c9c9c7;
+}
+ul.footer-links li{
+    line-height: 35px;
+    display: inline-block;
+    margin: 0 15px;
+}
+ul.footer-links li a:hover{
+    color: #c9c9c7;
+}
+ul.footer-links li .phone img{
+    margin-right:10px;
+}
+.sih-app-logo{
+    margin-top: 7px;
+}
+a.sih-app-logo:hover{
+    color: #c9c9c7;
+}
+.sih-app-logo img{
+    margin-right: 8px;
+}
+.copyright{
+    margin: 20px 10px 20px;
+}
+/****************************************************/
+/*                      BANNER                      */
+/****************************************************/
+.carousel-inner img{
+    width: 100%;
+}
+
+@media (max-width: 767.98px){
+    .intro h3{
+        margin-top: 0;
+    }
+    .xs-footer-logo{
+        padding-bottom: 15px;
+    }
+    .copyright{
+        text-align: left !important;
+        margin: 0;
+    }
+}
+
+/****************************************************/
+/*                    Breadcrumb                    */
+/****************************************************/
+.breadcrumb{
+    /* padding: 20px 35px; */
+    color: #000;
+    font-size: 16px;
+    background: #fff;
+    margin-bottom: 0;
+}
+.breadcrumb span {
+    margin: 0 3px;
+    color: #777;
+}
+.breadcrumb span.active{
+    color: #333;
+}
+
+
+/****************************************************/
+/*                    SIH 2019                      */
+/****************************************************/
+.breadcrumb,
+.intro2019, 
+.whatisSIH2019, 
+.hardware-editions-themes, 
+.oraganizing-committee-container, 
+.supporters, 
+.participating-central-ministries, 
+.youtubeVideos,
+.support-container,
+.organizers_and_partners,
+.newsUpdates,
+.social-media-container,
+.top-buttons-container,
+.videos-container,
+.img-gallary-container,
+.sih-at-a-glance{
+    padding:20px 50px
+}
+
+.intro2019{
+    /* padding: 0 40px 30px; */
+    color:#465a64;
+    padding-top: 0;
+}
+.intro2019 h3{
+    margin: 20px auto;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+.intro2019 h5{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.intro2019 p{
+    font-size: 16px;
+    margin-top: 15px;
+}
+.whatisSIH2019{
+    background: #74838a;
+    color: #fff;
+    /* padding: 20px 35px 50px */
+}
+.whatisSIH2019 h3{
+    background: #74838a;
+    color: #fff;
+    font-size: 35px;
+    font-weight: bold;
+}
+.whatisSIH2019 h4{
+    color: #fff;
+    font-size: 19px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+.whatisSIH2019 ul{
+    margin-top: 15px;
+}
+.whatisSIH2019 ul li{
+    color: #fff;    
+    padding-left: 15px;
+    margin: 4px 0;
+    background: url(../img/li-icon.png) 0px 10px no-repeat;
+}
+/* .whatisSIH2019 ul li::before {
+    content: "•"; 
+    color:rgb(239, 129, 45);
+    display: inline-block; width: 1em;
+    margin-left: -1em
+} */
+.SIH-editions-images{
+    text-align: center;
+    margin-top: 70px
+}
+.SIH-editions-images img{
+    width:100%;
+}
+.SIH-editions-image-details{
+    color: #000;
+    margin: 30px -35px 0;
+    font-size: 21px;
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+.SIH-editions-image-details p{
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 5px;
+    letter-spacing: 0;
+}
+.SIH-editions-image-details button {
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #005CF8;
+    font-size: 14px;
+    margin-top: 30px;
+    background: #fff;
+}
+
+/*THEMES-----------------------------*/
+.oraganizing-committee-container,
+.img-gallary-container{
+    background-color: #eeeeee;
+}
+.hardware-editions-themes{
+    position:relative;
+}
+.hardware-themes{
+	background-color: #eeeeee;
+	padding: 5px 12px 20px 20px;
+    position: relative;
+    margin-bottom: 25px;
+}
+.hardware-themes .committee{
+    position: absolute;
+    z-index: 1;
+    padding: 0;
+    background: #fff;
+    top: 100%;
+    border: 1px solid #eae6e6;
+    border-top: 0;
+    -webkit-box-shadow: 0 1px 1px 0 #919191;
+    box-shadow: 0 1px 1px 0 #919191;
+    width: 100%;
+}
+.hardware-themes .committee .committee-members {
+    min-height: 95px;
+    margin-top: 2px;
+}
+.close-btn {
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+.theme-description p{
+    font-size: 14px;
+    line-height: 15px;
+	margin-bottom: 0;
+    margin-left: 85px;
+    color:#465A64;
+}
+.theme-description span{
+    display: inline-block;
+    min-height: 50px;
+    margin-bottom: 7px;
+    margin-top: 18px;
+    width: 100%
+}
+.committee h6{
+    padding: 0 10px;
+    width: 100%;
+}
+.theme-description .committee h6{
+    font-size: 17px;
+    line-height: 19px;
+    font-weight: bold;
+    width: 100%;
+}
+h6.theme-heading{
+	color:#EB680F;
+    font-size: 23px;
+    line-height: 19px;
+    font-weight: bold;
+    height: auto;
+    letter-spacing: -1px;
+}
+div[class^="hardware-theme-"]{
+    -webkit-box-shadow: 0 1px 1px 0 #919191;
+    box-shadow: 0 1px 1px 0 #919191;
+}
+.participating-central-ministries{
+    background-color: #eeeeee;
+}
+.participating-central-ministries ul li{
+    min-height: 45px;
+    color: #465A64;
+}
+.committee-members {
+    min-height: 106px;
+    padding-left: 10px;
+    margin: 0 -10px 5px;
+}
+.committee .committee-members img.theme-img {
+    margin: 0 20px 10px 0;
+}
+.committee-members p {
+    margin-bottom: 0;
+    min-height: 75px;
+    /* font: normal 15px/17px RobotoCondensed !important; */
+    font-size: 13px;
+    line-height: 17px;
+    color: #000;
+}
+.committee-members p strong {
+    font-size: 19px;
+    line-height: 27px;
+    letter-spacing: -1px;
+}
+.committee-members img {
+    height: 75px;
+    width: 75px;
+}
+.supporters h5{
+    color:#EB680F;
+    /* font: bold 17px/19px RobotoBlack; */
+    font-size: 20px;
+    line-height: 19px;
+    font-weight: bold;
+    height: auto;
+    letter-spacing: -1px; 
+}
+.supporters .logo img{
+    margin-right: 10px;
+}
+.supporters .logo{
+    margin-bottom: 30px;
+}
+.supporters h4.event-section-headings{
+    /* margin-top: 30px; */
+}
+
+/***************************************/
+/*          Important Resources        */
+/***************************************/
+.embed-responsive{
+    background: #0F1323;
+}
+.youtubeVideos h4{
+    text-align: center;
+    color: #f37021;
+    font-size: 30px;
+    font-weight: normal;
+}
+.video-heading{
+    margin-bottom:15px;
+}
+.video-title{
+    font-weight: bold;
+    font-size: 20px;
+    color: #475B65;
+    text-align: center;
+    margin: 5px 0 30px;
+    min-height: 60px;
+    letter-spacing: -1px;
+}
+
+/***************************************/
+/*              Support                */
+/***************************************/
+.support-container h4{
+    margin-top: 50px;
+} 
+.general_details{
+    text-decoration: underline;
+    margin-left: 15px;
+    font-size: 21px;
+    color: #005CF8
+}
+.support-faq-container{
+    margin-top:50px;
+    
+}
+.support-faq-container .support-faq-titles{
+    background: #293448;
+    color: #fff;
+    /* font-weight: bold; */
+    text-align: center;
+    font-size: 20px;
+    padding: 27px 0;
+}
+.support-faq-buttons{
+    background:#666d7d;
+    text-align: center;
+    padding: 10px 5px;
+}
+.support-faq-buttons button{
+    width: 80%;
+    margin: 15px 0;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 7px;
+    /* font-weight: bold; */
+    color: #005CF8;
+    background: #fff;
+    border: 1px solid #000;
+}
+.contact-us-container{
+    background: #f1f1f1;
+    padding: 0 20px 20px
+}
+.contact-us-container h4{
+    margin: 30px 0 20px
+}
+.contact-us-container .form-control{
+    border: 1px solid #9fa4a7;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    font-size: 17px;
+    height: 40px;
+    color: #000;
+    margin: 5px 0;
+    display: inline-block;
+    clear: both;
+}
+.contact-us-container textarea.form-control{
+    height: 150px;
+}
+.contact-us-container select.form-control{
+    width:60%;
+}
+.contact-us-links{
+    padding-top: 43px;
+}
+.contact-us-links .sih-app-logo{
+    color:#000;
+    line-height: 12px;
+    margin-top: 50px;
+    font-size: 12px;
+}
+.contact-us-links .sih-app-logo:hover{
+    color:#000;
+}
+.contact-us-links ul li{
+    margin: 20px 0;
+    font-weight: bold;
+    line-height: 54px;
+    font-size: 17px;
+}
+.contact-us-links ul li a{
+    color: #000;
+}
+.contact-us-links .mail-icon{
+    background: url(../img/message-icon-dark.png) 0 0 no-repeat;
+}
+.contact-us-links .phone-icon{
+    background: url(../img/phone-icon-dark.png) 0 0 no-repeat;
+}
+.contact-us-links .twitter-icon{
+    background: url(../img/twitter-icon-dark.png) 0 0 no-repeat;
+}
+.contact-us-links .fb-icon{
+    background: url(../img/fb-icon-dark.png) 0 0 no-repeat;
+}
+.contact-us-links i[class$="-icon"]{
+    height: 31px;
+    width: 35px;
+    display: inline-block;
+    float:left;
+    margin-right: 30px;
+    margin-top: 14px;
+}
+.support-send-btn{
+    background: url(../img/send-icon-dark.png) 0 0 no-repeat;
+    border:none;
+    font-size: 0;
+    height: 38px;
+    width: 38px;
+}
+
+/*********************************************/
+/*                SIH 2018                   */
+/*********************************************/
+.header-btns .btn {
+    padding: 10px 15px;
+    min-height: 53px;
+}
+.misc-button-lg.winnerList{
+	background-color:#ff8425; 	
+}
+.misc-button-lg.winnerList:hover{
+	color:#fff;
+	background-color:#DF7422; 
+}
+.misc-button-lg.repository {
+    background-color: #7ac750;
+}
+
+.misc-button-lg.repository:hover{
+	color:#fff;
+	background-color:#5BA930; 
+}
+.sih-at-a-glance-infographic>div img {
+    width: 100%;
+}
+.sih-at-a-glance-info{
+    margin-top: 10px;
+}
+.sih-at-a-glance-info p{
+    line-height:30px; 
+    margin-bottom:15px;
+}
+.misc-button-lg {
+    font-size: 21px;
+    color: #fff;
+    border: none;
+    background-color: #fff;
+    transition: background-color 0.5s;
+    -webkit-transition: background-color 0.5s;
+}
+/*ORGANISER AND PARTNERS*****************/
+.logo-margin{
+	margin-right:17px; 
+	margin-left:17px; 
+	margin-bottom:30px
+}
+.organizers_and_partners .row{
+    border-bottom: 1px solid #e4e4e4;
+    padding: 20px 0;
+}
+.organizers_and_partners .row .row.logos{
+	margin:0 -15px;	
+	padding-top: 0;
+	border-bottom: none;
+}
+.organizers_and_partners .row .row div[class^="col-"]{
+    height: 72px;
+    border-right: 1px solid #A32B2B;
+    margin-bottom: 11px;
+    text-align: center;
+    line-height: 72px;
+}
+.organizers_and_partners h6 {
+    padding: 9px 10px 9px 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #2c498d;
+    background: #f1f1f1;
+    text-align: right;
+}
+.organizers_and_partners h6.green{
+	color: #7cb342;
+}
+.organizers_and_partners h6.deepSkyblue{
+	color: #27c6da;
+}
+.organizers_and_partners h6.olive{
+	color: #b0b42c;
+}
+.organizers_and_partners h6.orange{
+	color: #ff6e41;
+}
+.organizers_and_partners h6.blue{
+	color: #288cca;
+}
+.organizers_and_partners h6.purple{
+	color: #2c498d;
+}
+.organizers_and_partners>div>div:last-child{
+	margin-bottom: 20px
+}
+
+/*MINISTER INTERACTING STUDENT *****/
+.minister-interacting-students>div[class^="col-"] {
+    margin: 10px 0;
+    padding: 0 10px;
+}
+.grandFinale-SIH-SoftwareEdition p {
+    margin-top: 10px;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+}
+.grandFinale-SIH-SoftwareEdition a{
+    color: #333;
+}
+
+/*SIH APP DOWNLOAD BUTTON *****/
+.sih-app-download-btn{
+	display: table;
+	border: 2px solid #ececec;
+	width: 100%;
+	border-radius: 8px;
+	font-size: 100%;
+	padding:6px 2%;
+	background-color: #ececec;
+	transition: all 0.5s;
+    -webkit-transition: all 0.5s; /* Safari 3.1 to 6.0 */
+}
+.sih-app-download-btn:hover{
+	border: 2px solid #fff78e;
+	text-decoration: none;
+	color:#000;
+	background: #fff78e;
+}
+.sih-app-download-btn:active{
+	text-decoration: none;
+}
+.sih-app-download-btn span{
+	text-align: center;
+	line-height: 16px;
+	font-size: 13px;
+	display: table-cell;
+	vertical-align: middle;
+}
+.sih-download-text {
+	padding-left: 5%;
+	width: 38%;
+	margin-top: 4px;
+}
+.sih-logo {
+	width: 15%;
+	padding:0;
+}
+.sih-logo img{
+	width: 40px;
+}
+
+.sih-app-download-btn.home-btn.sm-screen{
+	display:none
+}
+.sih-app-download-btn.sm{
+	display:none;
+}
+.google-play-icon{
+	width:15%;
+	padding: 0;
+	margin-top:3px;
+}
+.google-play-icon img{
+	width: 35px;
+	height: 35px;
+}
+.sihText{
+	padding-right: 20px;
+	width:32%;
+	text-align:left;
+	font-weight:bold
+}
+.sihDownloadText{
+	width: 75%;
+	font-size: 13px;
+	color: #666;
+	line-height: 22px;
+}
+.sih-app-download-btn span span{
+	float: none;
+	display: inline-block;
+	font-weight:bold;
+	font-size: 13px;
+}
+.sih-app-download-btn img{
+	margin-top:-3px
+}
+/*Theme Nodal Center-----------------------------*/
+.nodal-centers-logos .logos {
+    float: left;
+    height: 163px;
+    width: 154px;
+}
+span.nodal-center-name {
+    display: block;
+    font-size:15px;
+    line-height: 20px;
+    text-align: center;
+}
+/*2017--------------------------------------------*/
+.video-img-container {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)!important;
+    padding: 15px;
+    display: inline-block;
+    width: 100%;
+    color: #fff!important;
+    background-color: #616161!important;
+}
+/****************************************/
+/*            Gallery Modal             */
+/****************************************/
+.modal-footer .text-justify {
+    text-align: center;
+}
+.modal-body.text-center img {
+    display: inline;
+    width: 100%;
+}
+button#show-next-image, 
+button#show-previous-image{
+    background: none;
+    border: none;
+}
+#show-next-image .w3-hover-text-khaki{
+    cursor: pointer;
+}
+.w3-hover-text-khaki {
+    font-size: 23px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.3);
+    line-height: 40px;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    transition: background 0.5s;
+    -webkit-transition: background 0.5s;
+}
+button#show-next-image:focus, button#show-previous-image:focus{
+    outline-width: 0;
+}
+
+
+/******************************************************/
+/*                     NEWS UPDATES                   */
+/******************************************************/
+.newsUpdates h3 {
+    text-align: center;
+    color: #f37021;
+    font-size: 30px;
+}
+.newsUpdates-by-section h4 {
+    border-bottom: 1px solid #dfdfdf;
+    text-align: center;
+    padding: 10px;
+    font-size: 23px;
+    background: #e4e4e4;
+    color: #333;
+}
+.newsUpdates-by-section h5 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.tweets-row {
+	-moz-column-width: 18em;
+	-webkit-column-width: 18em;
+	-moz-column-gap: 15px;
+	-webkit-column-gap:15px; 
+}
+
+.tweets-item {
+	display:inline-block;
+	padding:.25rem;
+	width: 100%; 
+}
+.tweets-item .twitter-tweet{
+	transform: inherit !important
+}
+.card .brd{
+	display:none
+}
+.news-container{
+	border:1px solid #dfdfdf;
+	width:100%;
+	min-width: 230px;
+    margin: 0 auto 20px;
+	height: 275px;
+	position: relative;
+	background-color:#fff;
+}
+.news-channel-logo{
+    height: 108px;
+    width: 100%;
+	border-bottom: 1px solid #dfdfdf;
+}
+.news-headline{
+	padding: 10px
+}
+.news-headline a{
+	color:#333;
+}
+.readMoreNews {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 13px;
+    color: #666;
+    border-top: 1px solid #dfdfdf;
+	padding: 8px 10px;
+	background:#fff;
+	transition: background 0.5s;
+	-webkit-transition: background 0.5s;
+}
+.readMoreNews:hover{
+	color:#000;
+	text-decoration: none;
+	background:#ececec;
+}
+.newsDate{
+	color:#999;
+	font-size:14px;
+	display: block;
+	margin-top:5px;
+}
+.TOI {
+    background: #d31f01 url(../img/news-channels/timesofindia.png) no-repeat;
+    background-size: 74%;
+    background-position: center center;
+}
+.PIB {
+	background: url(../img/news-channels/pib.png) no-repeat;
+    background-position: center center;
+}
+.economictimes{
+	background: url(../img/news-channels/economictimes.html) no-repeat;
+	background-size: 100%;
+    background-position: center center;
+}
+.tech2{
+	background: url(../img/news-channels/tech2.png) no-repeat;
+	background-size: 74%;
+    background-position: center center;
+}
+.ndtv{
+	background: url(../img/news-channels/ndtv_logo.png) no-repeat;
+	background-size: 74%;
+    background-position: center center;
+}
+.hindustan-times{
+	background: url(../img/news-channels/hindustan-times.png) no-repeat;
+	background-size: 100%;
+    background-position: center center;
+}
+.news18{
+	background: url(../img/news-channels/news18.png) no-repeat;
+	background-size: 75%;
+    background-position: center center;
+}
+.ciol{
+	background: url(../img/news-channels/ciol-news.jpg) no-repeat;
+	background-size: 100%;
+    background-position: center center;
+}
+.narendra-modi{
+	background: url(../img/news-channels/narendra-modi.png) no-repeat;
+	background-size: 80%;
+    background-position: center center;
+}
+.thequint{
+	background: #36184e url(../img/news-channels/the-quint.png) no-repeat;
+	background-size: 60%;
+    background-position: center center;
+}
+.UNI{
+	background: #fff url(../img/news-channels/UNI-logo.png) no-repeat;
+	background-size: 97%;
+    background-position: center center;
+}
+.digit{
+	background: #000000 url(../img/news-channels/digit.png) no-repeat;
+	background-size: 30%;
+    background-position: center center;
+}
+.deccen-herald{
+	background: #fff url(../img/news-channels/deccen-herald-logo.svg) no-repeat;
+	background-size: 35%;
+    background-position: center center;
+}
+.simpli-city{
+	background: #fff url(../img/news-channels/simpli-city.jpg) no-repeat;
+	background-size: 100%;
+    background-position: center center;
+}
+.bengalore-mirror{
+	background: #fff url(../img/news-channels/bengalore-mirror.png) no-repeat;
+	background-size: 80%;
+    background-position: center center;
+}
+.league-of-india{
+	background: #000 url(../img/news-channels/league-of-india.png) no-repeat;
+	background-size: 80%;
+    background-position: center center;
+}
+.news-container.narendra-modi-blog{
+	width: 100%;
+}
+.newsUpdates-by-section.bg-grey{
+	background: #f7f7f7;
+	padding: 20px
+}
+
+
+
+/******************************************************/
+/*                     SOCIAL MEDIA                   */
+/******************************************************/
+.social-media-container .panel .panel-body{
+    padding: 0;
+}
+.social-media-container .panel .panel-body iframe{
+    width:100%;
+}
+.bgblue {
+    background-color: #006899;
+    padding: 14px 10px;
+    z-index:1;
+    position:relative;
+    width:100%;
+    height:72px;
+}
+.bgblue-left {
+    background-color: #006899;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 18px;
+    height: 72px;
+    padding: 14px 10px;
+}
+.panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    overflow: hidden;
+    /* height: 450px; */
+    border-color: #ddd;
+
+}
+
+
+
+/********************************************/
+/*               MEDIA QUERY                */
+/********************************************/
+@media (max-width: 320px){
+
+}
+@media (min-width: 320px) and (max-width: 991.98px) {
+
+}
+@media screen and (max-width: 768px) and (orientation: portrait){
+    
+}
+@media (min-width: 320px) and (max-width: 767.98px) {
+
+}
+@media (max-width: 575.98px) {
+
+}
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .sm-screen-12 {
+		width: 100%;
+	}
+	.sm-screen-11 {
+	width: 91.66666667%;
+	}
+	.sm-screen-10 {
+	width: 83.33333333%;
+	}
+	.sm-screen-9 {
+	width: 75%;
+	}
+	.sm-screen-8 {
+	width: 66.66666667%;
+	}
+	.sm-screen-7 {
+		width: 58.33333333%;
+	  }
+	.sm-screen-6{
+		width:50%
+	}
+	.sm-screen-5{
+		width: 41.66666667%;
+	}
+	.sm-screen-4 {
+		width: 33.33333333%;
+	}
+	.sm-screen-2 {
+		width: 16.66666667%;
+	}
+	.sm-screen-1 {
+		width: 8.33333333%;
+	}
+	.sm-screen-12{
+		width:100%;
+		clear: both;
+		/* margin-bottom: 15px; */
+		display: inline-block;
+	}
+}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .navbar-fixed-top{
+        right: 15px;
+        left: 15px;
+    }
+    #header .navbar-brand{
+        margin: 17px 20px 0 0px;
+    }
+    #header .navbar-nav .nav-link {
+        padding: 25px 10px;
+    }
+    #header.sticky .navbar-nav .nav-link {
+        padding: 8px 14px;
+    }
+    .organizers_and_partners h6{
+        text-align: left;
+    }
+    .organizers_and_partners .row {
+        border-bottom: none;
+        padding: 0 0 0;
+    }
+    .organizers_and_partners .row span.logos{
+        margin-top: 20px;        
+        display: inline-block;
+    }
+    .sih-at-a-glance-info{
+        margin-top: 0; 
+    }
+    .sih-at-a-glance-info p{
+        font-size: 16px;
+    }
+    .committee-members p{
+        font-size: 15px;
+    }
+    .participating-central-ministries ul li{
+        font-size: 16px;
+    }
+    .participating-central-ministries ul.state-ministry li{
+        min-height: 25px;
+    }
+    footer{
+        margin-top: 30px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    #header .navbar-brand {
+        margin: 17px 20px 0 0;
+    }
+    #header .navbar-nav .nav-link {
+        padding: 25px 9px;
+    }
+    #header.sticky .navbar-nav .nav-link{
+        padding: 8px 17px;
+    }
+    .event-images .title{
+        font-size: 21px;
+    }
+    footer{
+        margin-top: 30px;
+    }    
+}
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    .container {
+        width: 911px!important;
+    }
+}
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	.left_menu{
+        width: 74% !important;
+        margin-top: 39px;
+    }
+    .right_menu{
+        width: 26% !important;
+        margin-top: 39px;
+    }
+    
+}
+
+
+
+
+@media (max-width: 767.98px){
+.left_menu{
+    margin-top: 52px;
+}
+    .alert_class_position{
+        margin-top: 39%!important;
+        margin-bottom: -39%!important;
+    }
+    .intro h3{
+        margin-top: 0;
+    }
+    .xs-footer-logo{
+        padding-bottom: 15px;
+    }
+    .copyright{
+        text-align: left !important;
+        margin: 0;
+    }
+
+    .sign_up_type{
+        font-size: 13px!important;
+        
+    }
+
+    .show_toggle{
+        display: block !important;
+       
+    }
+    .signup_Link{
+        margin-left: 26% !important;    
+      }
+    .loginLink{
+        margin-left: 16% !important;
+       }
+
+       .type_margin{
+        margin-top: 40%!important;
+        margin-bottom: 3%!important;
+   }
+   .middle_container{
+    margin-top: 43%!important;
+}
+}
+
+.alert_class_position{
+    margin-top: 10%!important;
+    margin-bottom: -10%!important;
+}
+.custom{
+
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background: url(../img/bg.png) center 77px no-repeat;
+
+   }
+  .common_span{
+   font-size: 18px;
+   color:#FF9900
+  }
+  .verify_mobile_span{
+margin-left: 30%;
+  }
+  .input_box{
+      height: 50px;
+  }
+
+  .show_toggle{
+    display: none;
+    cursor: pointer;
+}
+
+  .loginLink{
+   margin-left: 26%;
+  }
+  .signup_Link{
+    margin-left: 39%;    
+  }
+
+  .sign_up_type{
+       font-size: 25px
+   }
+  
+  .type_margin{
+       margin-top: 15%;
+       margin-bottom: 3%;
+       
+  }
+  .middle_container{
+    margin-top: 10%;
+}
+.priority_box {
+    margin-left: 28%;
+}
+.form_heading_color{
+    color:#FF9900;
+    
+}
+.div_spacing{
+    margin-bottom: 3%;
+}
+.youtube_msg{
+    color:brown;
+    font-size: 12px;
+}.priority_msg{
+    font-size: 12px;
+}
+.no_icon{
+    cursor: context-menu !important;
+}
+
+
+.notifications:hover {
+    text-align:left;
+    padding:0 15px;
+    background:#ff2c74;
+    transform:translateY(-100%);
+    border-bottom-left-radius:0;
+    border-bottom-right-radius:0;
+}
+.notification:hover .notification_container {
+    display: block; 
+}
+.notification_container ul li{
+    color:white;;
+}
+.notification_container ul li:hover{
+    color:white;
+    background: black
+}
+.notification_container{
+        display: none; 
+        position: absolute;
+        background-color: white;
+        width: 277px;
+        z-index: 99999;
+        min-height: 20px;
+        max-height: 200px;
+        overflow-y: scroll;
+        margin-left: -15px;
+        background: green;
+}
+.notification ul {
+    padding: 0px 19px 24px 13px
+}
+
+
+
+.notification_container li {
+    font-size: 10px;
+    letter-spacing: 0px;
+}
+
+.rahul_h {
+    line-height: 14px;
+    font-size: 13px;
+    text-transform: lowercase;
+}
+.rahul_h label {
+line-height: 4px;
+}
+.notifications .num {
+    position:absolute;
+    top:0;
+    right:-5px;
+    width:25px;
+    height:25px;
+    border-radius:50%;
+    background:#ff2c74;
+    color:#fff;
+    line-height:25px;
+    font-family:sans-serif;
+    text-align:center;
+}
+.notifications:hover .num {
+    position:relative;
+    background:transparent;
+    color:#fff;
+    font-size:24px;
+    top:-4px;
+}
+.notifications:hover .num:after {
+    content:' Notification';
+}
+.notifications ul {
+    position:absolute;
+    left:0;
+    top:50px;
+    margin:0;
+    width:100%;
+    box-shadow:0 5px 15px rgba(0,0,0,.5);
+    padding:20px;
+    box-sizing:border-box;
+    border-bottom-left-radius:30px;
+    border-bottom-right-radius:30px;
+    display:none;
+}
+.notifications:hover ul {
+    display:block;
+}
+
